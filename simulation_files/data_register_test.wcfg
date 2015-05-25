@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/My Documents/University/Year 5/Quarter 3/ECE 425/Xilinx Projects/lab_4_path_and_control/test_reg_data_mem_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="test_reg_data_mem" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="22" />
+   <wvobject fp_name="/test_reg_data_mem/data_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_reg_data_mem/addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">addr[3:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_reg_data_mem/data_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_in[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_reg_data_mem/MemWrite" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">MemWrite</obj_property>
+      <obj_property name="ObjectShortName">MemWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_reg_data_mem/MemRead" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">MemRead</obj_property>
+      <obj_property name="ObjectShortName">MemRead</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_reg_data_mem/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_reg_data_mem/uut/DREG1/OUT" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">OUT[15:0]</obj_property>
+      <obj_property name="ObjectShortName">OUT[15:0]</obj_property>
+      <obj_property name="label">DREG0</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_reg_data_mem/uut/DREG2/OUT" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">OUT[15:0]</obj_property>
+      <obj_property name="ObjectShortName">OUT[15:0]</obj_property>
+      <obj_property name="label">DREG1</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_reg_data_mem/uut/DREG3/OUT" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">OUT[15:0]</obj_property>
+      <obj_property name="ObjectShortName">OUT[15:0]</obj_property>
+      <obj_property name="label">DREG2</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_reg_data_mem/uut/DREG4/OUT" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">OUT[15:0]</obj_property>
+      <obj_property name="ObjectShortName">OUT[15:0]</obj_property>
+      <obj_property name="label">DREG3</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_reg_data_mem/uut/DREG5/OUT" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">OUT[15:0]</obj_property>
+      <obj_property name="ObjectShortName">OUT[15:0]</obj_property>
+      <obj_property name="label">DREG4</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_reg_data_mem/uut/DREG6/OUT" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">OUT[15:0]</obj_property>
+      <obj_property name="ObjectShortName">OUT[15:0]</obj_property>
+      <obj_property name="label">DREG5</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_reg_data_mem/uut/DREG7/OUT" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">OUT[15:0]</obj_property>
+      <obj_property name="ObjectShortName">OUT[15:0]</obj_property>
+      <obj_property name="label">DREG6</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_reg_data_mem/uut/DREG8/OUT" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">OUT[15:0]</obj_property>
+      <obj_property name="ObjectShortName">OUT[15:0]</obj_property>
+      <obj_property name="label">DREG7</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_reg_data_mem/uut/DREG9/OUT" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">OUT[15:0]</obj_property>
+      <obj_property name="ObjectShortName">OUT[15:0]</obj_property>
+      <obj_property name="label">DREG8</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_reg_data_mem/uut/DREG10/OUT" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">OUT[15:0]</obj_property>
+      <obj_property name="ObjectShortName">OUT[15:0]</obj_property>
+      <obj_property name="label">DREG9</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_reg_data_mem/uut/DREG11/OUT" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">OUT[15:0]</obj_property>
+      <obj_property name="ObjectShortName">OUT[15:0]</obj_property>
+      <obj_property name="label">DREG10</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_reg_data_mem/uut/DREG12/OUT" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">OUT[15:0]</obj_property>
+      <obj_property name="ObjectShortName">OUT[15:0]</obj_property>
+      <obj_property name="label">DREG11</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_reg_data_mem/uut/DREG13/OUT" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">OUT[15:0]</obj_property>
+      <obj_property name="ObjectShortName">OUT[15:0]</obj_property>
+      <obj_property name="label">DREG12</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_reg_data_mem/uut/DREG14/OUT" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">OUT[15:0]</obj_property>
+      <obj_property name="ObjectShortName">OUT[15:0]</obj_property>
+      <obj_property name="label">DREG13</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_reg_data_mem/uut/DREG15/OUT" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">OUT[15:0]</obj_property>
+      <obj_property name="ObjectShortName">OUT[15:0]</obj_property>
+      <obj_property name="label">DREG14</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_reg_data_mem/uut/DREG16/OUT" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">OUT[15:0]</obj_property>
+      <obj_property name="ObjectShortName">OUT[15:0]</obj_property>
+      <obj_property name="label">DREG15</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>

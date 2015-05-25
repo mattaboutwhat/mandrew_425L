@@ -1,0 +1,26 @@
+ALU requirements
+
+Functional requirements:
+	1. unsigned addition
+	2. signed, 2's compliment addition
+	3. signed, 2's compliment subtraction
+	4. logical AND 
+	5. logical OR
+	6. less than, greater than, and equal to flags
+
+Structural requirements:
+	1. a 2's compliment comparator
+		a) this can add or subtract
+	2. use the 2's compliment to 
+		a) test if equal
+		b) test if less than or equal to
+	3. 16-bit AND
+	4. 16-bit OR
+
+
+So we need:
+	1. 2's compliment comparator (which does adding/subtracting)
+	2. testing hardware after comparator
+	3. 16-bit AND
+	4. 16-bit OR
+	5. unsigned adder

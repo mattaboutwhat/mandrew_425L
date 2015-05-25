@@ -1,0 +1,27 @@
+UNSIGNED_ADDER
+	. does it need an overflow out? is overflow
+	  possible for an unsigned adder?
+
+TWOS_COMP
+	. doesn't have carry in
+		. seems to use 'subc' instead?
+	. carry through the full_adders doesnt seem
+	  so work; c[0] in full_adder 1 isn't attached
+	  to anything.
+
+COMPARATOR
+	. why not just call the subrtractor?
+	  e.g. twos_comp() with the subtract bit set?
+	. why does it even have an output, besides
+	  the less_than, greater_than and equal_to flags?
+
+
+GENERAL
+	. COMBINE HARDWARE
+	   . comparator uses a twos_comp subtractor; only
+	     use one, and have comparator use that output.
+	   . We don't need an enable at every 2x1 Mux; we 
+	     should remove the enables from the lowest level
+	     (ie the 2x1 mux) and implement it as a single
+	     AND (or 16-bit AND module?) at the highest 
+	     level possible.
