@@ -18,4 +18,4 @@ module instruct_mem(PC, INSTR, clk);
 		endcase
 	end
 
-endmodule
+endmodule 

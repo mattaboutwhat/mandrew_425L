@@ -1,7 +1,6 @@
 `timescale 1ns / 1ps
 
-////////////////////////////////////////////////
-module d_ff_beh (clk, D, Q, nClear);
+module d_ff_beh_c1 (clk, D, Q, nClear);
 	input clk, D, nClear;
 	output reg Q;
 	

@@ -1,7 +1,5 @@
 `timescale 1ns / 1ps
 
-//////////////////////////////////////////////////////////////////////////////////
-
 module reg_file_struct(A, B, Aaddr, Baddr, Caddr, C, load, nClear, clk);
 
 	input  [3:0] 	Aaddr, Baddr, Caddr;
@@ -46,7 +44,7 @@ module reg_file_struct(A, B, Aaddr, Baddr, Caddr, C, load, nClear, clk);
 						MUX_LOAD16	(reg16_out, C, load_out[15], reg16_in);
 
 	//registers
-	reg_16bit		REG1		(clk, reg1_in,  reg1_out,  1'b0),		//$zero
+	reg_16bit		REG1		(clk, reg1_in,  reg1_out,  1'b0  ),		//$zero
 						REG2		(clk, reg2_in,  reg2_out,  nClear),
 						REG3		(clk, reg3_in,  reg3_out,  nClear),
 						REG4		(clk, reg4_in,  reg4_out,  nClear),

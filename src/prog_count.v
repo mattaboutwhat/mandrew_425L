@@ -6,6 +6,7 @@ module prog_count(PC, PC_next, clk, nClear);
 	input  [15:0] 	PC_next;
 	output [15:0] 	PC;
 	
-	d_ff_beh 		DFF		[15:0]	(clk, PC_next[15:0], PC[15:0], nClear);	
+	d_ff_beh 		DFF		[15:1]	(clk, PC_next[15:1], PC[15:1], nClear);	
+	d_ff_beh_c1		DFFc1					(clk, PC_next[0],    PC[0],    nClear);
 
 endmodule

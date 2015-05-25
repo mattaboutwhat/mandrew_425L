@@ -8,7 +8,7 @@ module control (opcode,RegDst,Jump,Branch,MemRead,MemToReg,ALUop,MemWrite,ALUsrc
 
 	always @(opcode) begin
 		case (opcode)
-			4'h2: begin
+			4'h2: begin //ADD
 					RegDst<=1;
 					Jump<=0;
 					Branch<=0;
