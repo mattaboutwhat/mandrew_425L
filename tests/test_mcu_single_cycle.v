@@ -1,27 +1,5 @@
 `timescale 1ns / 1ps
 
-////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer:
-//
-// Create Date:   18:37:59 05/24/2015
-// Design Name:   mcu_single_cycle
-// Module Name:   D:/My Documents/University/Year 5/Quarter 3/ECE 425/src/tests/test_mcu_single_cycle.v
-// Project Name:  lab_4_path_and_control
-// Target Device:  
-// Tool versions:  
-// Description: 
-//
-// Verilog Test Fixture created by ISE for module: mcu_single_cycle
-//
-// Dependencies:
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-////////////////////////////////////////////////////////////////////////////////
-
 module test_mcu_single_cycle;
 
 	// Inputs
@@ -40,9 +18,9 @@ module test_mcu_single_cycle;
 		.write_back_data(write_back_data)
 	);
 
-	always 
+	always
 		#1 clk=~clk;
-	
+
 	initial begin
 		// Initialize Inputs
 		clk = 0;
@@ -52,7 +30,7 @@ module test_mcu_single_cycle;
 		#100;
         
 		// Add stimulus here
-		
+		nClear = 1;
 	end
       
 endmodule

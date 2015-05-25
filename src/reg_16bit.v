@@ -5,7 +5,7 @@ module reg_16bit(clk, IN, OUT, nClear);
 	input [15:0] IN;
 	output [15:0] OUT;
 
-	d_ff_beh dff_ [15:0](clk, IN, OUT, nClear);
+	d_ff_beh dff_ [15:0](clk, IN[15:0], OUT[15:0], nClear);
 
 
 endmodule

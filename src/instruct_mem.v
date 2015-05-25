@@ -8,8 +8,8 @@ module instruct_mem(PC, INSTR, clk);
 	always @(posedge clk) begin
 		case(PC)
 			0:		INSTR = 16'h0000;	//interrupt vector
-			1:  	INSTR = 16'h3000;	//clear instruction
-			2:  	INSTR = 16'h0000;
+			1:  	INSTR = 16'h2456;	//clear instruction
+			2:  	INSTR = 16'hA061;
 			3: 	INSTR = 16'h0000;
 			4: 	INSTR = 16'h0000;
 			5: 	INSTR = 16'h0000;
