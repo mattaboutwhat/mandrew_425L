@@ -21,8 +21,6 @@ module mcu_single_cycle(clk, nClear, PC_next, write_back_data);
 	//other stuff
 	wire [1:0]  NC;
 	wire nul=0;
-
-	//init 						INIT		(nClear, clk);
 	
 	//Program Counter and PC+1 unsigned adder
 	prog_count				PCount	(PC, PC_next, clk, nClear);
