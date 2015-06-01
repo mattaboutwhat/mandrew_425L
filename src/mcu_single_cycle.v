@@ -1,9 +1,19 @@
 `timescale 1ns / 1ps
+///////////////////////////////////////////////////
+//
+// Matthew Allen & Andrew Bakhit
+// ECE 425L | Spring 2015
+// Dr. Halima el Naga
+// Cal Poly Pomona (www.cpp.edu)
+//
+///////////////////////////////////////////////////
 
-module mcu_single_cycle(clk, nClear, PC_next, write_back_data);
+module mcu_single_cycle(clk, nClear);
 	input clk, nClear;
-	output [15:0] PC_next, write_back_data;
+	output [3:0] dataout; 
+	output LCD_E, LCD_RS, LCD_RW;
 	
+//WIRES AND ASSIGNS
 	//instruction, PC and its variants
 	wire [15:0] INSTR, PC, PC_next, PC_plus1;
 	//16-bit wux outputs
@@ -19,9 +29,15 @@ module mcu_single_cycle(clk, nClear, PC_next, write_back_data);
 	//data mem stuff
 	wire [15:0] data_out;
 	//other stuff
+	wire [2:0] lcd_control;
 	wire [1:0]  NC;
 	wire nul=0;
+	//LCD stuff
+	assign LCD_E = lcd_control[2];
+	assign LCD_E = lcd_control[1];
+	assign LCD_E = lcd_control[0];
 	
+//MCU MODULES
 	//Program Counter and PC+1 unsigned adder
 	prog_count				PCount	(PC, PC_next, clk, nClear);
 	unsigned_add			PCadd		(PC_plus1, NC[0], 16'b1, PC, nul);
@@ -52,5 +68,8 @@ module mcu_single_cycle(clk, nClear, PC_next, write_back_data);
 	//data mem and its output mux
 	reg_data_mem			DMem		(data_out, alu_out, data2, MemWrite, MemRead, clk);
 	mux2_16bit				DOutMux	(alu_out, data_out, MemToReg, write_back_data);
+	
+	
+//LCD MODULES
 	
 endmodule

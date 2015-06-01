@@ -1,0 +1,14 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "clk" LOC = C9 | IOSTANDARD = LVTTL ;
+
+# LCD interface
+NET "LCD_E"    LOC = "M18" | IOSTANDARD = LVCMOS33 | DRIVE = 4 | SLEW = SLOW ;	# LCD_E
+NET "LCD_RS"   LOC = "L18" | IOSTANDARD = LVCMOS33 | DRIVE = 4 | SLEW = SLOW ;	# LCD_RS
+NET "LCD_RW"   LOC = "L17" | IOSTANDARD = LVCMOS33 | DRIVE = 4 | SLEW = SLOW ;	# LCD_RW
+
+NET "dataout[3]"  LOC = "R15" | IOSTANDARD = LVCMOS33 | DRIVE = 4 | SLEW = SLOW ;	# Data MSB
+NET "dataout[2]"  LOC = "R16" | IOSTANDARD = LVCMOS33 | DRIVE = 4 | SLEW = SLOW ;
+NET "dataout[1]" LOC = "P17" | IOSTANDARD = LVCMOS33 | DRIVE = 4 | SLEW = SLOW ;
+NET "dataout[0]" LOC = "M15" | IOSTANDARD = LVCMOS33 | DRIVE = 4 | SLEW = SLOW ;	# Data LSB
