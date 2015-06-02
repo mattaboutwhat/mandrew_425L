@@ -8,10 +8,12 @@
 //
 ///////////////////////////////////////////////////
 
-module mcu_single_cycle(clk, nClear);
-	input clk, nClear;
-	output [3:0] dataout; 
-	output LCD_E, LCD_RS, LCD_RW;
+module mcu_single_cycle(clk_in, nClear, reg1);
+	input clk_in, nClear;
+//	output [3:0] lcd_dataout; 
+//	output [2:0] lcd_control;
+//	output ledpin, ledpin2;
+	output [7:0] reg1;
 	
 //WIRES AND ASSIGNS
 	//instruction, PC and its variants
@@ -32,10 +34,10 @@ module mcu_single_cycle(clk, nClear);
 	wire [2:0] lcd_control;
 	wire [1:0]  NC;
 	wire nul=0;
-	//LCD stuff
-	assign LCD_E = lcd_control[2];
-	assign LCD_E = lcd_control[1];
-	assign LCD_E = lcd_control[0];
+	
+	
+//CLOCK MODULES
+	clk_div					CLKDIV	(clk_in, clk);
 	
 //MCU MODULES
 	//Program Counter and PC+1 unsigned adder
@@ -59,7 +61,7 @@ module mcu_single_cycle(clk, nClear);
 	
 	//File register and its preceding mux
 	mux2_4bit				MUX_REG	(INSTR[7:4], INSTR[3:0], RegDst, reg_mux_out);
-	reg_file_struct 		REG		(data1, data2, INSTR[11:8], INSTR[7:4], reg_mux_out, write_back_data, RegWrite, nClear, clk);
+	reg_file_struct 		REG		(data1, data2, INSTR[11:8], INSTR[7:4], reg_mux_out, write_back_data, RegWrite, nClear, clk, reg1);
 	
 	//ALU and its mux
 	mux2_16bit				MUX_ALU	(data2, sign_ext_out, ALUsrc, alu_mux_out);
@@ -71,5 +73,6 @@ module mcu_single_cycle(clk, nClear);
 	
 	
 //LCD MODULES
+//	lcd						LCD		(clk_in, lcd_dataout, lcd_control, ledpin, ledpin2, INSTR[15:12]);
 	
 endmodule

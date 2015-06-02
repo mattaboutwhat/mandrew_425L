@@ -1,11 +1,12 @@
 `timescale 1ns / 1ps
 
-module reg_file_struct(A, B, Aaddr, Baddr, Caddr, C, load, nClear, clk);
+module reg_file_struct(A, B, Aaddr, Baddr, Caddr, C, load, nClear, clk, reg1);
 
 	input  [3:0] 	Aaddr, Baddr, Caddr;
 	input  [15:0] 	C;
 	input 			load, nClear, clk;
 	output [15:0]	A, B;
+	output [7:0]  reg1;
 	
 	wire [15:0] demux_out;
 	wire [15:0] load_out;
@@ -17,6 +18,8 @@ module reg_file_struct(A, B, Aaddr, Baddr, Caddr, C, load, nClear, clk);
 	wire [15:0] reg1_in,   reg2_in,   reg3_in,   reg4_in,   reg5_in,  reg6_in,
 					reg7_in,   reg8_in,   reg9_in,   reg10_in,  reg11_in, reg12_in,
 					reg13_in,  reg14_in,  reg15_in,  reg16_in;
+	
+	assign reg1 = reg7_out[7:0];
 	
 	//register select decoder
 	

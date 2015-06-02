@@ -7,15 +7,18 @@ module test_mcu_single_cycle;
 	reg nClear;
 
 	// Outputs
-	wire [15:0] PC_next;
-	wire [15:0] write_back_data;
-
+	reg [3:0] lcd_dataout;
+	reg [2:0] lcd_control;
+	reg ledpin, ledpin2;
+	
 	// Instantiate the Unit Under Test (UUT)
 	mcu_single_cycle uut (
-		.clk(clk), 
-		.nClear(nClear), 
-		.PC_next(PC_next), 
-		.write_back_data(write_back_data)
+		.clk_in(clk), 
+		.nClear(nClear),
+		.lcd_dataout(lcd_dataout),
+		.lcd_control(lcd_control),
+		.ledpin(ledpin),
+		.ledpin2(ledpin2)
 	);
 
 	always
