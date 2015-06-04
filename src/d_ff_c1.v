@@ -7,11 +7,9 @@ module d_ff_beh_c1 (clk, D, Q, nClear);
 	always @(posedge clk or negedge nClear)
 	begin
 		if (~nClear) 
-		begin
 			Q=1;
-		end else begin
+		else 
 			Q=D;
-		end
 	end
 
 endmodule

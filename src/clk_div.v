@@ -14,14 +14,16 @@ module clk_div(clk_in, clk_out);
 	
 	always @(posedge clk_in) begin
 		if (counter < 50_000_001) begin
-			clk_out <= 0;
-			counter = counter + 1;
-		end else if (counter >= 50_000_001 && counter <100_000_000) begin
 			clk_out <= 1;
 			counter = counter + 1;
+		end else if (counter >= 50_000_001 && counter <100_000_000) begin
+			clk_out <= 0;
+			counter = counter + 1;
 			end
-		else
+		else begin
 			counter = 0;
+			clk_out <= 1;
+		end
 	end
 
 

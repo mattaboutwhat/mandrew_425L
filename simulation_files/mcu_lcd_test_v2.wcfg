@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/My Documents/University/Year 5/Quarter 3/ECE 425/Xilinx Projects/lab_4_path_and_control/test_mcu_single_cycle_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="test_mcu_single_cycle" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="14" />
+   <wvobject fp_name="/test_mcu_single_cycle/clk_in" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_in</obj_property>
+      <obj_property name="ObjectShortName">clk_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_mcu_single_cycle/uut/CLKDIV/clk_out" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">clk_out</obj_property>
+      <obj_property name="ObjectShortName">clk_out</obj_property>
+      <obj_property name="label">clk1Hz</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_mcu_single_cycle/nClear" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">nClear</obj_property>
+      <obj_property name="ObjectShortName">nClear</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_mcu_single_cycle/uut/PC" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PC[15:0]</obj_property>
+      <obj_property name="ObjectShortName">PC[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_mcu_single_cycle/uut/PC_next" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PC_next[15:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_next[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_mcu_single_cycle/uut/INSTR" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">INSTR[15:0]</obj_property>
+      <obj_property name="ObjectShortName">INSTR[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_mcu_single_cycle/lcd_dataout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">lcd_dataout[3:0]</obj_property>
+      <obj_property name="ObjectShortName">lcd_dataout[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_mcu_single_cycle/lcd_control" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">lcd_control[2:0]</obj_property>
+      <obj_property name="ObjectShortName">lcd_control[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="group22" type="group">
+      <obj_property name="label">LCD</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/test_mcu_single_cycle/uut/LCD/dataout" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">dataout[3:0]</obj_property>
+         <obj_property name="ObjectShortName">dataout[3:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_mcu_single_cycle/uut/LCD/control" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">control[2:0]</obj_property>
+         <obj_property name="ObjectShortName">control[2:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_mcu_single_cycle/uut/LCD/DR" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">DR[7:0]</obj_property>
+         <obj_property name="ObjectShortName">DR[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_mcu_single_cycle/uut/LCD/MUX" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">MUX[7:0]</obj_property>
+         <obj_property name="ObjectShortName">MUX[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_mcu_single_cycle/uut/LCD/stage" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">stage[2:0]</obj_property>
+         <obj_property name="ObjectShortName">stage[2:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_mcu_single_cycle/uut/LCD/state" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">state[4:0]</obj_property>
+         <obj_property name="ObjectShortName">state[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_mcu_single_cycle/uut/LCD/sel" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">sel[4:0]</obj_property>
+         <obj_property name="ObjectShortName">sel[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group27" type="group">
+      <obj_property name="label">PC_ADD</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/test_mcu_single_cycle/uut/PCadd/OUT" type="array" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">OUT[15:0]</obj_property>
+         <obj_property name="ObjectShortName">OUT[15:0]</obj_property>
+         <obj_property name="label">PC+1</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_mcu_single_cycle/uut/PCadd/A" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">A[15:0]</obj_property>
+         <obj_property name="ObjectShortName">A[15:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_mcu_single_cycle/uut/PCadd/B" type="array" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">B[15:0]</obj_property>
+         <obj_property name="ObjectShortName">B[15:0]</obj_property>
+         <obj_property name="label">B[15:0] (PC)</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group22" type="group">
+      <obj_property name="label">Control Lines</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/test_mcu_single_cycle/uut/ALU/eq" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">eq</obj_property>
+         <obj_property name="ObjectShortName">eq</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_mcu_single_cycle/uut/ALU/lt" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">lt</obj_property>
+         <obj_property name="ObjectShortName">lt</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_mcu_single_cycle/uut/CNTRL/ALUop" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">ALUop[2:0]</obj_property>
+         <obj_property name="ObjectShortName">ALUop[2:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_mcu_single_cycle/uut/CNTRL/RegDst" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">RegDst</obj_property>
+         <obj_property name="ObjectShortName">RegDst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_mcu_single_cycle/uut/CNTRL/Jump" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">Jump</obj_property>
+         <obj_property name="ObjectShortName">Jump</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_mcu_single_cycle/uut/CNTRL/Branch" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">Branch</obj_property>
+         <obj_property name="ObjectShortName">Branch</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_mcu_single_cycle/uut/CNTRL/MemRead" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">MemRead</obj_property>
+         <obj_property name="ObjectShortName">MemRead</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_mcu_single_cycle/uut/CNTRL/MemToReg" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">MemToReg</obj_property>
+         <obj_property name="ObjectShortName">MemToReg</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_mcu_single_cycle/uut/CNTRL/MemWrite" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">MemWrite</obj_property>
+         <obj_property name="ObjectShortName">MemWrite</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_mcu_single_cycle/uut/CNTRL/ALUsrc" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">ALUsrc</obj_property>
+         <obj_property name="ObjectShortName">ALUsrc</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_mcu_single_cycle/uut/CNTRL/RegWrite" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">RegWrite</obj_property>
+         <obj_property name="ObjectShortName">RegWrite</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group35" type="group">
+      <obj_property name="label">JMUX</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/test_mcu_single_cycle/uut/J_mux/B" type="array" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">B[15:0]</obj_property>
+         <obj_property name="ObjectShortName">B[15:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="label">Jump Address</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_mcu_single_cycle/uut/J_mux/A" type="array" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">A[15:0]</obj_property>
+         <obj_property name="ObjectShortName">A[15:0]</obj_property>
+         <obj_property name="label">b_mux_out</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_mcu_single_cycle/uut/J_mux/sel" type="logic" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">sel</obj_property>
+         <obj_property name="ObjectShortName">sel</obj_property>
+         <obj_property name="label">Jump Control</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_mcu_single_cycle/uut/J_mux/OUT" type="array" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">OUT[15:0]</obj_property>
+         <obj_property name="ObjectShortName">OUT[15:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="label">PC Next</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_mcu_single_cycle/uut/CNTRL/Jump" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">Jump</obj_property>
+         <obj_property name="ObjectShortName">Jump</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group32" type="group">
+      <obj_property name="label">BMUX</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/test_mcu_single_cycle/uut/B_mux/A" type="array" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">A[15:0]</obj_property>
+         <obj_property name="ObjectShortName">A[15:0]</obj_property>
+         <obj_property name="label">PC+1</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_mcu_single_cycle/uut/B_mux/B" type="array" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">B[15:0]</obj_property>
+         <obj_property name="ObjectShortName">B[15:0]</obj_property>
+         <obj_property name="label">branch addr</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_mcu_single_cycle/uut/B_mux/sel" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">sel</obj_property>
+         <obj_property name="ObjectShortName">sel</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_mcu_single_cycle/uut/B_mux/OUT" type="array" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">OUT[15:0]</obj_property>
+         <obj_property name="ObjectShortName">OUT[15:0]</obj_property>
+         <obj_property name="label">b_mux_out</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_mcu_single_cycle/uut/CNTRL/Branch" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">Branch</obj_property>
+         <obj_property name="ObjectShortName">Branch</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_mcu_single_cycle/uut/ALU/eq" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">eq</obj_property>
+         <obj_property name="ObjectShortName">eq</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group37" type="group">
+      <obj_property name="label">Branch Addr Adder</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/test_mcu_single_cycle/uut/TCadd/OUT" type="array" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">OUT[15:0]</obj_property>
+         <obj_property name="ObjectShortName">OUT[15:0]</obj_property>
+         <obj_property name="label">branch_ addr_out</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_mcu_single_cycle/uut/TCadd/B" type="array" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">B[15:0]</obj_property>
+         <obj_property name="ObjectShortName">B[15:0]</obj_property>
+         <obj_property name="label">sign_ext_offset</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_mcu_single_cycle/uut/TCadd/A" type="array" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">A[15:0]</obj_property>
+         <obj_property name="ObjectShortName">A[15:0]</obj_property>
+         <obj_property name="label">PC+1</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>
