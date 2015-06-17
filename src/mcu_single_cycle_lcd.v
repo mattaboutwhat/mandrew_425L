@@ -8,9 +8,10 @@
 //
 ///////////////////////////////////////////////////
 
-module mcu_single_cycle(clk, nClear, write_back_data);
-	input clk, nClear;
-	output [15:0] write_back_data;
+module mcu_single_cycle(clk_in, nClear, lcd_dataout, lcd_control);
+	input clk_in, nClear;
+	output [3:0] lcd_dataout; 
+	output [2:0] lcd_control;
 	
 //WIRES AND ASSIGNS
 	//instruction, PC and its variants
@@ -30,6 +31,9 @@ module mcu_single_cycle(clk, nClear, write_back_data);
 	//other stuff
 	wire nul=0;
 	
+	
+//CLOCK MODULES
+	clk_div					CLKDIV	(clk_in, clk);
 	
 //MCU MODULES
 	//Program Counter and PC+1 unsigned adder
@@ -62,5 +66,9 @@ module mcu_single_cycle(clk, nClear, write_back_data);
 	//data mem and its output mux
 	reg_data_mem			DMem		(data_out, alu_out, data2, MemWrite, MemRead, clk);
 	mux2_16bit				DOutMux	(alu_out, data_out, MemToReg, write_back_data);
+	
+	
+//LCD MODULES
+	lcd						LCD		(clk_in, lcd_dataout, lcd_control, INSTR[15:12], INSTR[11:8], INSTR[7:4], INSTR[3:0]);
 	
 endmodule

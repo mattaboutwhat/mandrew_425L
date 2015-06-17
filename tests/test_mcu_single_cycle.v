@@ -29,15 +29,17 @@ module test_mcu_single_cycle;
 	reg nClear;
 
 	// Outputs
-	wire [3:0] lcd_dataout;
-	wire [2:0] lcd_control;
+	wire [15:0] write_back_data;
+	//wire [3:0] lcd_dataout;
+	//wire [2:0] lcd_control;
 
 	// Instantiate the Unit Under Test (UUT)
 	mcu_single_cycle uut (
 		.clk(clk_in), 
-		.nClear(nClear), 
-		.lcd_dataout(lcd_dataout), 
-		.lcd_control(lcd_control)
+		.nClear(nClear),
+		.write_back_data(write_back_data)
+		//.lcd_dataout(lcd_dataout), 
+		//.lcd_control(lcd_control)
 	);
 
 	always

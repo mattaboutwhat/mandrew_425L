@@ -11,9 +11,13 @@
       </db_ref>
    </db_ref_list>
    <WVObjectSize size="23" />
-   <wvobject fp_name="/test_mcu_single_cycle/clk" type="logic" db_ref_id="1">
-      <obj_property name="ElementShortName">clk</obj_property>
-      <obj_property name="ObjectShortName">clk</obj_property>
+   <wvobject fp_name="/test_mcu_single_cycle/write_back_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">write_back_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">write_back_data[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_mcu_single_cycle/clk_in" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_in</obj_property>
+      <obj_property name="ObjectShortName">clk_in</obj_property>
    </wvobject>
    <wvobject fp_name="/test_mcu_single_cycle/nClear" type="logic" db_ref_id="1">
       <obj_property name="ElementShortName">nClear</obj_property>
@@ -27,11 +31,6 @@
    <wvobject fp_name="/test_mcu_single_cycle/uut/PC_plus1" type="array" db_ref_id="1">
       <obj_property name="ElementShortName">PC_plus1[15:0]</obj_property>
       <obj_property name="ObjectShortName">PC_plus1[15:0]</obj_property>
-      <obj_property name="Radix">HEXRADIX</obj_property>
-   </wvobject>
-   <wvobject fp_name="/test_mcu_single_cycle/PC_next" type="array" db_ref_id="1">
-      <obj_property name="ElementShortName">PC_next[15:0]</obj_property>
-      <obj_property name="ObjectShortName">PC_next[15:0]</obj_property>
       <obj_property name="Radix">HEXRADIX</obj_property>
    </wvobject>
    <wvobject fp_name="/test_mcu_single_cycle/write_back_data" type="array" db_ref_id="1">

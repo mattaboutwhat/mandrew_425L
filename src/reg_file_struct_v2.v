@@ -51,8 +51,8 @@ module reg_file_struct(A, B, Aaddr, Baddr, Caddr, C, load, nClear, clk);
 						REG2		(clk, reg2_in,  reg2_out,  nClear),
 						REG3		(clk, reg3_in,  reg3_out,  nClear),
 						REG4		(clk, reg4_in,  reg4_out,  nClear),
-						//REG5		(clk, reg5_in,  reg5_out,  nClear),
-						//REG6		(clk, reg6_in,  reg6_out,  nClear),
+						REG5		(clk, reg5_in,  reg5_out,  nClear),
+						REG6		(clk, reg6_in,  reg6_out,  nClear),
 						REG7		(clk, reg7_in,  reg7_out,  nClear),
 						REG8		(clk, reg8_in,  reg8_out,  nClear),
 						REG9		(clk, reg9_in,  reg9_out,  nClear),
@@ -64,8 +64,8 @@ module reg_file_struct(A, B, Aaddr, Baddr, Caddr, C, load, nClear, clk);
 						REG15		(clk, reg15_in, reg15_out, nClear),
 						REG16		(clk, reg16_in, reg16_out, nClear);
 						
-	reg_16bit_c1	REG5		(clk, reg5_in, reg5_out, nClear);
-	reg_16bit_c2	REG6		(clk, reg6_in, reg6_out, nClear);
+	//reg_16bit_c1	REG5		(clk, reg5_in, reg5_out, nClear);
+	//reg_16bit_c2	REG6		(clk, reg6_in, reg6_out, nClear);
 	
 	//outputs
 	mux16_16bit		MUXA		(A, Aaddr, reg1_out, reg2_out, reg3_out, reg4_out, reg5_out, reg6_out, reg7_out, reg8_out, reg9_out, reg10_out, reg11_out, reg12_out, reg13_out, reg14_out, reg15_out, reg16_out);

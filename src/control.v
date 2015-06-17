@@ -19,6 +19,17 @@ module control (opcode,RegDst,Jump,Branch,MemRead,MemToReg,ALUop,MemWrite,ALUsrc
 					ALUsrc<=0;
 					RegWrite<=1;
 			end
+			4'h3: begin //ADDi
+					RegDst<=0;
+					Jump<=0;
+					Branch<=0;
+					MemRead<=0;
+					MemToReg<=0;
+					ALUop<=3'b011;
+					MemWrite<=0;
+					ALUsrc<=1;
+					RegWrite<=1;
+			end
 			4'h6: begin //SUB
 					RegDst<=1;
 					Jump<=0;
