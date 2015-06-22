@@ -3,26 +3,23 @@
 //
 //
 ///////////////////////////////////////
-module clk_div(clk_in, clk_out);
-	input clk_in;
+module clk_div(clk_in, clk_out, enable);
+	input clk_in, enable;
 	output reg clk_out;
-	reg [26:0]counter;
-	
-	initial begin
-		counter <= 0;
-	end
-	
+	reg [25:0]counter;
+
 	always @(posedge clk_in) begin
-		if (counter < 50_000_001) begin
-			clk_out <= 1;
-			counter = counter + 1;
-		end else if (counter >= 50_000_001 && counter <100_000_000) begin
-			clk_out <= 0;
-			counter = counter + 1;
+		if (enable) begin
+			if (counter < 25_000_001) begin
+				clk_out <= 0;
+				counter <= counter + 1;
+			end else if (counter < 50_000_000) begin
+				clk_out <= 1;
+				counter <= counter + 1;
+			end else begin
+				counter <= 0;
+				clk_out <= 1;
 			end
-		else begin
-			counter = 0;
-			clk_out <= 1;
 		end
 	end
 

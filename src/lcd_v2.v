@@ -1,9 +1,13 @@
 `timescale 1ns/1ps
-///////////////////////////////////////
-// Matthew Allen. all matthew allen
-// nobody but matthew allen. matthew
-// allen a million years.
-//////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////
+//
+// Matthew Allen & Andrew Bakhit
+// ECE 425L | Spring 2015
+// Dr. Halima el Naga
+// Cal Poly Pomona (www.cpp.edu)
+// Adapted from Shayan Daryoush's "PowerInit.v"
+//
+//////////////////////////////////////////////////////////////////////////////////
 module lcd(clk, dataout, control, OPCODE);
 	input clk;
 	input  [3:0] OPCODE;
@@ -170,7 +174,7 @@ module lcd(clk, dataout, control, OPCODE);
 									0: MUX<=8'h41;
 									1: MUX<=8'h64;
 									2: MUX<=8'h64;
-									3: MUX<=8'h20;
+									3: MUX<=8'h00;
 									4: MUX<=8'h20;
 									5: MUX<=8'h20;
 									6: MUX<=8'h20;
@@ -183,7 +187,7 @@ module lcd(clk, dataout, control, OPCODE);
 									13:MUX<=8'h20;
 									14:MUX<=8'h20;
 									15:MUX<=8'h20;
-									16:MUX<=8'h20;
+									16:MUX<=8'hFF;
 									17:MUX<=8'h20;
 									18:MUX<=8'h20;
 									19:MUX<=8'h20;
@@ -200,11 +204,45 @@ module lcd(clk, dataout, control, OPCODE);
 									30:MUX<=8'h20;
 									31:MUX<=8'h20;
 								endcase
-					4'b0011: case(sel) //subtract
+					4'b0011: case(sel) //addi
+									0: MUX<=8'h41;	//A
+									1: MUX<=8'h64;	//d
+									2: MUX<=8'h64;	//d
+									3: MUX<=8'h69;	//i
+									4: MUX<=8'h00;
+									5: MUX<=8'h20;
+									6: MUX<=8'h20;
+									7: MUX<=8'h20;
+									8: MUX<=8'h20;
+									9: MUX<=8'h20;
+									10:MUX<=8'h20;
+									11:MUX<=8'h20;
+									12:MUX<=8'h20;
+									13:MUX<=8'h20;
+									14:MUX<=8'h20;
+									15:MUX<=8'h20;
+									16:MUX<=8'hFF;
+									17:MUX<=8'h20;
+									18:MUX<=8'h20;
+									19:MUX<=8'h20;
+									20:MUX<=8'h20;
+									21:MUX<=8'h20;
+									22:MUX<=8'h20;
+									23:MUX<=8'h20;
+									24:MUX<=8'h20;
+									25:MUX<=8'h20;
+									26:MUX<=8'h20;
+									27:MUX<=8'h20;
+									28:MUX<=8'h20;
+									29:MUX<=8'h20;
+									30:MUX<=8'h20;
+									31:MUX<=8'h20;
+								endcase
+					4'b0110: case(sel) //subtract
 									0: MUX<=8'h53;
 									1: MUX<=8'h75;
 									2: MUX<=8'h62;
-									3: MUX<=8'h20;
+									3: MUX<=8'h00;
 									4: MUX<=8'h20;
 									5: MUX<=8'h20;
 									6: MUX<=8'h20;
@@ -217,7 +255,7 @@ module lcd(clk, dataout, control, OPCODE);
 									13:MUX<=8'h20;
 									14:MUX<=8'h20;
 									15:MUX<=8'h20;
-									16:MUX<=8'h20;
+									16:MUX<=8'hFF;
 									17:MUX<=8'h20;
 									18:MUX<=8'h20;
 									19:MUX<=8'h20;
@@ -238,7 +276,7 @@ module lcd(clk, dataout, control, OPCODE);
 									0: MUX<=8'h41;
 									1: MUX<=8'h6E;
 									2: MUX<=8'h64;
-									3: MUX<=8'h20;
+									3: MUX<=8'h00;
 									4: MUX<=8'h20;
 									5: MUX<=8'h20;
 									6: MUX<=8'h20;
@@ -251,7 +289,7 @@ module lcd(clk, dataout, control, OPCODE);
 									13:MUX<=8'h20;
 									14:MUX<=8'h20;
 									15:MUX<=8'h20;
-									16:MUX<=8'h20;
+									16:MUX<=8'hFF;
 									17:MUX<=8'h20;
 									18:MUX<=8'h20;
 									19:MUX<=8'h20;
@@ -271,7 +309,7 @@ module lcd(clk, dataout, control, OPCODE);
 					4'b0001: case(sel) //or
 									0: MUX<=8'h6F;
 									1: MUX<=8'h72;
-									2: MUX<=8'h20;
+									2: MUX<=8'h00;
 									3: MUX<=8'h20;
 									4: MUX<=8'h20;
 									5: MUX<=8'h20;
@@ -285,7 +323,7 @@ module lcd(clk, dataout, control, OPCODE);
 									13:MUX<=8'h20;
 									14:MUX<=8'h20;
 									15:MUX<=8'h20;
-									16:MUX<=8'h20;
+									16:MUX<=8'hFF;
 									17:MUX<=8'h20;
 									18:MUX<=8'h20;
 									19:MUX<=8'h20;
@@ -306,7 +344,7 @@ module lcd(clk, dataout, control, OPCODE);
 									0: MUX<=8'h53;
 									1: MUX<=8'h4C;
 									2: MUX<=8'h54;
-									3: MUX<=8'h20;
+									3: MUX<=8'h00;
 									4: MUX<=8'h20;
 									5: MUX<=8'h20;
 									6: MUX<=8'h20;
@@ -319,7 +357,7 @@ module lcd(clk, dataout, control, OPCODE);
 									13:MUX<=8'h20;
 									14:MUX<=8'h20;
 									15:MUX<=8'h20;
-									16:MUX<=8'h20;
+									16:MUX<=8'hFF;
 									17:MUX<=8'h20;
 									18:MUX<=8'h20;
 									19:MUX<=8'h20;
@@ -339,8 +377,8 @@ module lcd(clk, dataout, control, OPCODE);
 					4'b1000: case(sel) //LW
 									0: MUX<=8'h4C;
 									1: MUX<=8'h57;
-									2: MUX<=8'h20;
-									3: MUX<=8'h20;
+									2: MUX<=8'h00;
+									3: MUX<=8'h00;
 									4: MUX<=8'h20;
 									5: MUX<=8'h20;
 									6: MUX<=8'h20;
@@ -353,7 +391,7 @@ module lcd(clk, dataout, control, OPCODE);
 									13:MUX<=8'h20;
 									14:MUX<=8'h20;
 									15:MUX<=8'h20;
-									16:MUX<=8'h20;
+									16:MUX<=8'hFF;
 									17:MUX<=8'h20;
 									18:MUX<=8'h20;
 									19:MUX<=8'h20;
@@ -373,7 +411,7 @@ module lcd(clk, dataout, control, OPCODE);
 					4'b1010: case(sel) //SW
 									0: MUX<=8'h53;
 									1: MUX<=8'h57;
-									2: MUX<=8'h20;
+									2: MUX<=8'h00;
 									3: MUX<=8'h20;
 									4: MUX<=8'h20;
 									5: MUX<=8'h20;
@@ -387,7 +425,7 @@ module lcd(clk, dataout, control, OPCODE);
 									13:MUX<=8'h20;
 									14:MUX<=8'h20;
 									15:MUX<=8'h20;
-									16:MUX<=8'h20;
+									16:MUX<=8'hFF;
 									17:MUX<=8'h20;
 									18:MUX<=8'h20;
 									19:MUX<=8'h20;
@@ -408,7 +446,7 @@ module lcd(clk, dataout, control, OPCODE);
 									0: MUX<=8'h42;
 									1: MUX<=8'h4E;
 									2: MUX<=8'h45;
-									3: MUX<=8'h20;
+									3: MUX<=8'h00;
 									4: MUX<=8'h20;
 									5: MUX<=8'h20;
 									6: MUX<=8'h20;
@@ -421,7 +459,7 @@ module lcd(clk, dataout, control, OPCODE);
 									13:MUX<=8'h20;
 									14:MUX<=8'h20;
 									15:MUX<=8'h20;
-									16:MUX<=8'h20;
+									16:MUX<=8'hFF;
 									17:MUX<=8'h20;
 									18:MUX<=8'h20;
 									19:MUX<=8'h20;
@@ -443,7 +481,7 @@ module lcd(clk, dataout, control, OPCODE);
 									1: MUX<=8'h75;
 									2: MUX<=8'h6D;
 									3: MUX<=8'h70;
-									4: MUX<=8'h20;
+									4: MUX<=8'h00;
 									5: MUX<=8'h20;
 									6: MUX<=8'h20;
 									7: MUX<=8'h20;
@@ -455,7 +493,7 @@ module lcd(clk, dataout, control, OPCODE);
 									13:MUX<=8'h20;
 									14:MUX<=8'h20;
 									15:MUX<=8'h20;
-									16:MUX<=8'h20;
+									16:MUX<=8'hFF;
 									17:MUX<=8'h20;
 									18:MUX<=8'h20;
 									19:MUX<=8'h20;
@@ -471,9 +509,43 @@ module lcd(clk, dataout, control, OPCODE);
 									29:MUX<=8'h20;
 									30:MUX<=8'h20;
 									31:MUX<=8'h20;
-								endcase
-							default: MUX<=8'hE0;
-				endcase
+								endcase						
+							default: case(sel) //Default
+									0: MUX<=8'h44;
+									1: MUX<=8'h65;
+									2: MUX<=8'h66;
+									3: MUX<=8'h61;
+									4: MUX<=8'h75;
+									5: MUX<=8'h6C;
+									6: MUX<=8'h74;
+									7: MUX<=8'h00;
+									8: MUX<=8'h20;
+									9: MUX<=8'h20;
+									10:MUX<=8'h20;
+									11:MUX<=8'h20;
+									12:MUX<=8'h20;
+									13:MUX<=8'h20;
+									14:MUX<=8'h20;
+									15:MUX<=8'h20;
+									16:MUX<=8'hFF;
+									17:MUX<=8'h20;
+									18:MUX<=8'h20;
+									19:MUX<=8'h20;
+									20:MUX<=8'h20;
+									21:MUX<=8'h20;
+									22:MUX<=8'h20;
+									23:MUX<=8'h20;
+									24:MUX<=8'h20;
+									25:MUX<=8'h20;
+									26:MUX<=8'h20;
+									27:MUX<=8'h20;
+									28:MUX<=8'h20;
+									29:MUX<=8'h20;
+									30:MUX<=8'h20;
+									31:MUX<=8'h20;
+								endcase				
+				endcase													
+
 				case(state)
 					//set address: 0x00
 					0: begin DR<=8'h80; state<=1; end
@@ -516,11 +588,11 @@ module lcd(clk, dataout, control, OPCODE);
 					//loop or exit
 					16:begin if(delay==0) begin delay<=40000; sel<=sel+1; state<=17; end 
 								else delay<=delay-1; end
-					17:begin if(delay==0) begin 	if(sel==15) begin //next line
-																DR<=8'hA0; state<=1; end
-															else if(sel==31) begin //done, start over
-																state<=0; sel<=0; 	end
-															else 	//next character
+					17:begin if(delay==0) begin 	if(sel==16) begin 		//next line
+																DR<=8'hC0; state<=1; end
+															else if(sel==31) begin 	//done, start over
+																stage<=2; state<=18; sel<=0; 	end
+															else 							//next character
 																state<=7;				end
 								else delay<=delay-1; 								end
 				endcase

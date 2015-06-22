@@ -1,0 +1,36 @@
+# PlanAhead Generated physical constraints 
+
+
+NET "clk_in" LOC = "C9"  | IOSTANDARD = LVTTL ;
+//NET "clk"    LOC = "F9"  | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 8 ; #slow CPU clock output to LED
+
+# Switches
+NET "nClear" LOC = "N17" | IOSTANDARD = LVTTL | PULLUP ;
+NET "clk_en" LOC = "H18" | IOSTANDARD = LVTTL | PULLUP ;	#CPU clock enable switch
+
+# LCD interface
+NET "lcd_control[2]" LOC = "M18" | IOSTANDARD = LVCMOS33 | DRIVE = 4 | SLEW = SLOW ;	# LCD_E
+NET "lcd_control[1]" LOC = "L18" | IOSTANDARD = LVCMOS33 | DRIVE = 4 | SLEW = SLOW ;	# LCD_RS
+NET "lcd_control[0]" LOC = "L17" | IOSTANDARD = LVCMOS33 | DRIVE = 4 | SLEW = SLOW ;	# LCD_RW
+
+NET "lcd_dataout[0]" LOC = "R15" | IOSTANDARD = LVCMOS33 | DRIVE = 4 | SLEW = SLOW ;	# Data MSB
+NET "lcd_dataout[1]" LOC = "R16" | IOSTANDARD = LVCMOS33 | DRIVE = 4 | SLEW = SLOW ;
+NET "lcd_dataout[2]" LOC = "P17" | IOSTANDARD = LVCMOS33 | DRIVE = 4 | SLEW = SLOW ;
+NET "lcd_dataout[3]" LOC = "M15" | IOSTANDARD = LVCMOS33 | DRIVE = 4 | SLEW = SLOW ;	# Data LSB
+
+# Quadrature Encoder Knob
+NET "rot_a" LOC = K18 | IOSTANDARD = LVTTL | PULLUP;
+NET "rot_b" LOC = G18 | IOSTANDARD = LVTTL | PULLUP;
+
+# Buttons
+NET "btn" LOC = D18 | IOSTANDARD = LVTTL | PULLDOWN;
+
+# LED for test
+NET "display[7]" LOC = F9 | IOSTANDARD = LVTTL | PULLUP ;
+NET "display[6]" LOC = E9 | IOSTANDARD = LVTTL | PULLUP ;
+NET "display[5]" LOC = D11 | IOSTANDARD = LVTTL | PULLUP ;
+NET "display[4]" LOC = C11 | IOSTANDARD = LVTTL | PULLUP ;
+NET "display[3]" LOC = F11 | IOSTANDARD = LVTTL | PULLUP ;
+NET "display[2]" LOC = E11 | IOSTANDARD = LVTTL | PULLUP ;
+NET "display[1]" LOC = E12 | IOSTANDARD = LVTTL | PULLUP ;
+NET "display[0]" LOC = F12 | IOSTANDARD = LVTTL | PULLUP ;

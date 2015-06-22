@@ -2,18 +2,16 @@
 ////////////////////////////////////////
 //
 ////////////////////////////////////////
-module top_lcd_test(clk, dataout, control, led);
-	input clk;
-	output led;
-	output [3:0] dataout;
-	output [2:0] control;
+module top_lcd_test(clk, dataout, control, clk1Hz);
+	input wire clk;
+	output clk1Hz;
+	output wire [3:0] dataout;
+	output wire [2:0] control;
 	wire   [3:0] OPCODE;
 	wire clk1Hz;
 	
-	assign led=clk1Hz;
-	
-	lcd						LCD			(clk, dataout, control, OPCODE);
 	clk_div					CLKDIV		(clk, clk1Hz);
 	opcode_test				OPCTEST		(clk1Hz, OPCODE);
+	lcd						LCD			(clk, dataout, control, OPCODE);
 	
 endmodule

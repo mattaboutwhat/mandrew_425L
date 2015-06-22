@@ -1,10 +1,13 @@
 `timescale 1ns/1ps
-///////////////////////////////////////
-// Matthew Allen. all matthew allen
-// nobody but matthew allen. matthew
-// allen a million years matthew 
-// allen. matthewallen.com
-//////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////
+//
+// Matthew Allen & Andrew Bakhit
+// ECE 425L | Spring 2015
+// Dr. Halima el Naga
+// Cal Poly Pomona (www.cpp.edu)
+// Adapted from Shayan Daryoush's "PowerInit.v"
+//
+//////////////////////////////////////////////////////////////////////////////////
 module lcd(clk, dataout, control, sel, dd_data;
 	input clk;
 	input [7:0] dd_data;
@@ -153,7 +156,7 @@ module lcd(clk, dataout, control, sel, dd_data;
 								else delay<=delay-1; end
 					16:begin if(delay==0) begin
 									if(sel==7) 			state<=17;
-									else begin 			state<=7; 	sel<=sel+1; end end
+									else begin 			sel<=sel+1; state<=7; 	                          end end
 								else delay<=delay-1; end
 
 					//delay and exit
@@ -186,7 +189,7 @@ module lcd(clk, dataout, control, sel, dd_data;
 								else delay<=delay-1; end
 
 					//SENDING DATA
-					7: begin if(delay==0) begin DR<=dd_data; 							state<=8; 								end
+					7: begin if(delay==0) begin DR<=dd_data; 						state<=8; 								end
 								else delay<=delay-1; end
 					//send MSBs
 					8: begin if(delay==0) begin delay<=2;  control<=3'b010; 	state<=9; dataout<=DR[7:4]; 		end
@@ -212,7 +215,7 @@ module lcd(clk, dataout, control, sel, dd_data;
 					16:begin if(delay==0) begin delay<=205000; sel<=sel+1; state<=17; end 
 								else delay<=delay-1; end
 					17:begin if(delay==0) begin 	if(sel==15) begin 				//next line; write DD Addr 0x40
-																DR<=8'hA0; state<=1; end
+																DR<=8'hC0; state<=1; end
 															else if(sel==31) begin 			//done, start over
 																state<=0; sel<=0; 	end
 															else 									//else, next character

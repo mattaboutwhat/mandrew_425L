@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/My Documents/University/Year 5/Quarter 3/ECE 425/Xilinx Projects/lab_4b_lcd_debugger/test_mcu_single_cycle_lcd_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="test_mcu_single_cycle_lcd" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="13" />
+   <wvobject fp_name="/test_mcu_single_cycle_lcd/clk_in" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_in</obj_property>
+      <obj_property name="ObjectShortName">clk_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_mcu_single_cycle_lcd/uut/CLK_5K/clk_out" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">clk_out</obj_property>
+      <obj_property name="ObjectShortName">clk_out</obj_property>
+      <obj_property name="label">clk 5K</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_mcu_single_cycle_lcd/uut/CLKDIV/clk_out" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">clk_out</obj_property>
+      <obj_property name="ObjectShortName">clk_out</obj_property>
+      <obj_property name="label">clk CPU</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_mcu_single_cycle_lcd/lcd_dataout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">lcd_dataout[3:0]</obj_property>
+      <obj_property name="ObjectShortName">lcd_dataout[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_mcu_single_cycle_lcd/lcd_control" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">lcd_control[2:0]</obj_property>
+      <obj_property name="ObjectShortName">lcd_control[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_mcu_single_cycle_lcd/display" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">display[7:0]</obj_property>
+      <obj_property name="ObjectShortName">display[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_mcu_single_cycle_lcd/nClear" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">nClear</obj_property>
+      <obj_property name="ObjectShortName">nClear</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_mcu_single_cycle_lcd/clk_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_en</obj_property>
+      <obj_property name="ObjectShortName">clk_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_mcu_single_cycle_lcd/btn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">btn</obj_property>
+      <obj_property name="ObjectShortName">btn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_mcu_single_cycle_lcd/rot_a" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rot_a</obj_property>
+      <obj_property name="ObjectShortName">rot_a</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_mcu_single_cycle_lcd/rot_b" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rot_b</obj_property>
+      <obj_property name="ObjectShortName">rot_b</obj_property>
+   </wvobject>
+   <wvobject fp_name="group12" type="group">
+      <obj_property name="label">Input Tests</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/test_mcu_single_cycle_lcd/uut/ccw" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">ccw</obj_property>
+         <obj_property name="ObjectShortName">ccw</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_mcu_single_cycle_lcd/uut/cw" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">cw</obj_property>
+         <obj_property name="ObjectShortName">cw</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_mcu_single_cycle_lcd/uut/rot_a_clean" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">rot_a_clean</obj_property>
+         <obj_property name="ObjectShortName">rot_a_clean</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_mcu_single_cycle_lcd/uut/rot_b_clean" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">rot_b_clean</obj_property>
+         <obj_property name="ObjectShortName">rot_b_clean</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_mcu_single_cycle_lcd/uut/Q_STATE/state" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">state[1:0]</obj_property>
+         <obj_property name="ObjectShortName">state[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_mcu_single_cycle_lcd/uut/Q_STATE/cw" type="logic" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">cw</obj_property>
+         <obj_property name="ObjectShortName">cw</obj_property>
+         <obj_property name="label">cw_state</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_mcu_single_cycle_lcd/uut/Q_STATE/ccw" type="logic" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">ccw</obj_property>
+         <obj_property name="ObjectShortName">ccw</obj_property>
+         <obj_property name="label">ccw_state</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group30" type="group">
+      <obj_property name="label">Button Stuff</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/test_mcu_single_cycle_lcd/uut/btn_edge" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">btn_edge</obj_property>
+         <obj_property name="ObjectShortName">btn_edge</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_mcu_single_cycle_lcd/uut/BTN_DBNC/sbuf" type="array" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">sbuf[7:0]</obj_property>
+         <obj_property name="ObjectShortName">sbuf[7:0]</obj_property>
+         <obj_property name="label">btn_shift_reg</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_mcu_single_cycle_lcd/uut/btn_clean" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">btn_clean</obj_property>
+         <obj_property name="ObjectShortName">btn_clean</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

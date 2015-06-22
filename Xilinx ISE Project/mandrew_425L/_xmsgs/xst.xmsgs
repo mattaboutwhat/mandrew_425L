@@ -1,0 +1,1675 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">sbuf&lt;7&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">sbuf&lt;7&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">16</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">INSTR</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="info" file="Xst" num="2371" delta="old" >HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">addr&lt;15:4&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">clk5K</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">V</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">L</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">G</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">Cout</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">Cin</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="info" file="Xst" num="1767" delta="old" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+</msg>
+
+<msg type="warning" file="Xst" num="524" delta="old" >All outputs of the instance &lt;<arg fmt="%s" index="1">CLK_5K</arg>&gt; of the block &lt;<arg fmt="%s" index="2">clk_5K</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;.
+This instance will be removed from the design along with all underlying logic
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">MUX2</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">ALU</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">MUX3</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">ALU</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">mux16_4</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">MUX1</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">DMem</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">2</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">3</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">6</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">7</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">9</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">10</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">11</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sbuf_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">BTN_DBNC</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sbuf_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">A_DBNC</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sbuf_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">B_DBNC</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">MUX2_[3]</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">MUX_REG</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">MUX2_[2]</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">MUX_REG</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">MUX_LOAD5</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">REG</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">MUX_LOAD6</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">REG</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">MUX_LOAD7</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">REG</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">MUX_LOAD8</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">REG</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">MUX_LOAD9</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">REG</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">MUX_LOAD10</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">REG</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">MUX_LOAD11</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">REG</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">MUX_LOAD12</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">REG</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">MUX_LOAD13</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">REG</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">MUX_LOAD14</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">REG</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">MUX_LOAD15</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">REG</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">MUX_LOAD16</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">REG</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">REG5</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">REG</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">REG6</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">REG</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">REG7</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">REG</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">REG8</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">REG</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">REG9</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">REG</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">REG10</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">REG</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">REG11</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">REG</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">REG12</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">REG</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">REG13</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">REG</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">REG14</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">REG</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">REG15</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">REG</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">REG16</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">REG</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">mux16_2</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">MUX1</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">mux16_3</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">MUX1</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">mux16_4</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">MUX1</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">mux16_6</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">MUX1</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">MUX2</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">MUXA</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">mux16_3</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">MUX1</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">mux16_4</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">MUX1</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">mux16_6</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">MUX1</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">MUX2</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">MUXB</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sbuf_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">debounce</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sbuf_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">quad_debounce</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">11</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">LPM_LATCH_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">7 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;10&gt; &lt;9&gt; &lt;7&gt; &lt;6&gt; &lt;3&gt; &lt;2&gt; &lt;1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">LPM_LATCH_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;5&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">11</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">LPM_LATCH_1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1899" delta="old" >Due to constant pushing, all outputs of the instance &lt;<arg fmt="%s" index="1">MUX_OUT/MUX1/mux16_1</arg>&gt; of the block &lt;<arg fmt="%s" index="2">mux2_16bit</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="3">reg_data_mem</arg>&gt;.
+This instance will be removed from the design along with all underlying logic
+</msg>
+
+<msg type="warning" file="Xst" num="1899" delta="old" >Due to constant pushing, all outputs of the instance &lt;<arg fmt="%s" index="1">MUX_OUT/MUX1/mux16_2</arg>&gt; of the block &lt;<arg fmt="%s" index="2">mux2_16bit</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="3">reg_data_mem</arg>&gt;.
+This instance will be removed from the design along with all underlying logic
+</msg>
+
+<msg type="warning" file="Xst" num="1899" delta="old" >Due to constant pushing, all outputs of the instance &lt;<arg fmt="%s" index="1">MUX_OUT/MUX1/mux16_5</arg>&gt; of the block &lt;<arg fmt="%s" index="2">mux2_16bit</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="3">reg_data_mem</arg>&gt;.
+This instance will be removed from the design along with all underlying logic
+</msg>
+
+<msg type="warning" file="Xst" num="1899" delta="old" >Due to constant pushing, all outputs of the instance &lt;<arg fmt="%s" index="1">MUX_OUT/MUX1/mux16_3</arg>&gt; of the block &lt;<arg fmt="%s" index="2">mux2_16bit</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="3">reg_data_mem</arg>&gt;.
+This instance will be removed from the design along with all underlying logic
+</msg>
+
+<msg type="warning" file="Xst" num="1899" delta="old" >Due to constant pushing, all outputs of the instance &lt;<arg fmt="%s" index="1">MUX_OUT/MUX1/mux16_4</arg>&gt; of the block &lt;<arg fmt="%s" index="2">mux2_16bit</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="3">reg_data_mem</arg>&gt;.
+This instance will be removed from the design along with all underlying logic
+</msg>
+
+<msg type="warning" file="Xst" num="1899" delta="old" >Due to constant pushing, all outputs of the instance &lt;<arg fmt="%s" index="1">MUX_OUT/MUX1/mux16_6</arg>&gt; of the block &lt;<arg fmt="%s" index="2">mux2_16bit</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="3">reg_data_mem</arg>&gt;.
+This instance will be removed from the design along with all underlying logic
+</msg>
+
+<msg type="warning" file="Xst" num="1899" delta="old" >Due to constant pushing, all outputs of the instance &lt;<arg fmt="%s" index="1">MUX_OUT/MUX1/mux16_7</arg>&gt; of the block &lt;<arg fmt="%s" index="2">mux2_16bit</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="3">reg_data_mem</arg>&gt;.
+This instance will be removed from the design along with all underlying logic
+</msg>
+
+<msg type="warning" file="Xst" num="1899" delta="old" >Due to constant pushing, all outputs of the instance &lt;<arg fmt="%s" index="1">MUX_OUT/MUX2/mux16_1</arg>&gt; of the block &lt;<arg fmt="%s" index="2">mux2_16bit</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="3">reg_data_mem</arg>&gt;.
+This instance will be removed from the design along with all underlying logic
+</msg>
+
+<msg type="warning" file="Xst" num="1899" delta="old" >Due to constant pushing, all outputs of the instance &lt;<arg fmt="%s" index="1">MUX_OUT/MUX2/mux16_2</arg>&gt; of the block &lt;<arg fmt="%s" index="2">mux2_16bit</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="3">reg_data_mem</arg>&gt;.
+This instance will be removed from the design along with all underlying logic
+</msg>
+
+<msg type="warning" file="Xst" num="1899" delta="old" >Due to constant pushing, all outputs of the instance &lt;<arg fmt="%s" index="1">MUX_OUT/MUX2/mux16_5</arg>&gt; of the block &lt;<arg fmt="%s" index="2">mux2_16bit</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="3">reg_data_mem</arg>&gt;.
+This instance will be removed from the design along with all underlying logic
+</msg>
+
+<msg type="warning" file="Xst" num="1899" delta="old" >Due to constant pushing, all outputs of the instance &lt;<arg fmt="%s" index="1">MUX_OUT/MUX2/mux16_3</arg>&gt; of the block &lt;<arg fmt="%s" index="2">mux2_16bit</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="3">reg_data_mem</arg>&gt;.
+This instance will be removed from the design along with all underlying logic
+</msg>
+
+<msg type="warning" file="Xst" num="1899" delta="old" >Due to constant pushing, all outputs of the instance &lt;<arg fmt="%s" index="1">MUX_OUT/MUX2/mux16_4</arg>&gt; of the block &lt;<arg fmt="%s" index="2">mux2_16bit</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="3">reg_data_mem</arg>&gt;.
+This instance will be removed from the design along with all underlying logic
+</msg>
+
+<msg type="warning" file="Xst" num="1899" delta="old" >Due to constant pushing, all outputs of the instance &lt;<arg fmt="%s" index="1">MUX_OUT/MUX2/mux16_6</arg>&gt; of the block &lt;<arg fmt="%s" index="2">mux2_16bit</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="3">reg_data_mem</arg>&gt;.
+This instance will be removed from the design along with all underlying logic
+</msg>
+
+<msg type="warning" file="Xst" num="1899" delta="old" >Due to constant pushing, all outputs of the instance &lt;<arg fmt="%s" index="1">MUX_OUT/MUX2/mux16_7</arg>&gt; of the block &lt;<arg fmt="%s" index="2">mux2_16bit</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="3">reg_data_mem</arg>&gt;.
+This instance will be removed from the design along with all underlying logic
+</msg>
+
+<msg type="warning" file="Xst" num="1899" delta="old" >Due to constant pushing, all outputs of the instance &lt;<arg fmt="%s" index="1">MUX_OUT/MUX3</arg>&gt; of the block &lt;<arg fmt="%s" index="2">mux2_16bit</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="3">reg_data_mem</arg>&gt;.
+This instance will be removed from the design along with all underlying logic
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">MUX_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">INSTR_14</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">instruct_mem</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;INSTR_15&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">INSTR_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">instruct_mem</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;INSTR_13&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">control_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">control_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG12/dff_[8]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG12/dff_[9]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG12/dff_[10]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG12/dff_[11]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG12/dff_[12]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG12/dff_[13]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG12/dff_[14]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG12/dff_[15]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG13/dff_[0]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG13/dff_[1]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG13/dff_[2]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG13/dff_[3]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG13/dff_[4]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG13/dff_[5]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG13/dff_[6]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG13/dff_[7]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG13/dff_[8]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG13/dff_[9]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG13/dff_[10]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG13/dff_[11]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG13/dff_[12]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG13/dff_[13]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG13/dff_[14]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG13/dff_[15]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG11/dff_[0]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG11/dff_[1]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG11/dff_[2]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG11/dff_[3]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG11/dff_[4]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG11/dff_[5]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG11/dff_[6]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG11/dff_[7]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG11/dff_[8]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG11/dff_[9]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG11/dff_[10]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG11/dff_[11]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG11/dff_[12]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG11/dff_[13]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG11/dff_[14]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG11/dff_[15]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG12/dff_[0]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG12/dff_[1]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG12/dff_[2]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG12/dff_[3]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG12/dff_[4]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG12/dff_[5]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG12/dff_[6]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG12/dff_[7]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG15/dff_[8]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG15/dff_[9]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG15/dff_[10]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG15/dff_[11]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG15/dff_[12]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG15/dff_[13]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG15/dff_[14]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG15/dff_[15]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG16/dff_[0]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG16/dff_[1]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG16/dff_[2]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG16/dff_[3]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG16/dff_[4]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG16/dff_[5]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG16/dff_[6]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG16/dff_[7]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG16/dff_[8]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG16/dff_[9]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG16/dff_[10]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG16/dff_[11]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG16/dff_[12]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG16/dff_[13]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG16/dff_[14]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG16/dff_[15]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG14/dff_[0]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG14/dff_[1]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG14/dff_[2]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG14/dff_[3]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG14/dff_[4]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG14/dff_[5]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG14/dff_[6]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG14/dff_[7]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG14/dff_[8]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG14/dff_[9]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG14/dff_[10]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG14/dff_[11]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG14/dff_[12]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG14/dff_[13]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG14/dff_[14]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG14/dff_[15]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG15/dff_[0]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG15/dff_[1]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG15/dff_[2]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG15/dff_[3]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG15/dff_[4]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG15/dff_[5]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG15/dff_[6]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG15/dff_[7]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG6/dff_[8]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG6/dff_[9]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG6/dff_[10]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG6/dff_[11]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG6/dff_[12]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG6/dff_[13]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG6/dff_[14]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG6/dff_[15]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG7/dff_[0]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG7/dff_[1]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG7/dff_[2]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG7/dff_[3]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG7/dff_[4]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG7/dff_[5]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG7/dff_[6]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG7/dff_[7]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG7/dff_[8]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG7/dff_[9]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG7/dff_[10]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG7/dff_[11]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG7/dff_[12]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG7/dff_[13]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG7/dff_[14]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG7/dff_[15]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG5/dff_[0]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG5/dff_[1]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG5/dff_[2]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG5/dff_[3]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG5/dff_[4]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG5/dff_[5]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG5/dff_[6]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG5/dff_[7]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG5/dff_[8]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG5/dff_[9]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG5/dff_[10]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG5/dff_[11]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG5/dff_[12]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG5/dff_[13]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG5/dff_[14]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG5/dff_[15]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG6/dff_[0]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG6/dff_[1]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG6/dff_[2]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG6/dff_[3]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG6/dff_[4]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG6/dff_[5]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG6/dff_[6]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG6/dff_[7]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG9/dff_[8]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG9/dff_[9]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG9/dff_[10]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG9/dff_[11]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG9/dff_[12]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG9/dff_[13]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG9/dff_[14]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG9/dff_[15]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG10/dff_[0]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG10/dff_[1]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG10/dff_[2]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG10/dff_[3]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG10/dff_[4]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG10/dff_[5]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG10/dff_[6]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG10/dff_[7]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG10/dff_[8]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG10/dff_[9]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG10/dff_[10]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG10/dff_[11]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG10/dff_[12]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG10/dff_[13]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG10/dff_[14]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG10/dff_[15]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG8/dff_[0]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG8/dff_[1]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG8/dff_[2]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG8/dff_[3]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG8/dff_[4]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG8/dff_[5]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG8/dff_[6]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG8/dff_[7]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG8/dff_[8]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG8/dff_[9]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG8/dff_[10]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG8/dff_[11]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG8/dff_[12]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG8/dff_[13]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG8/dff_[14]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG8/dff_[15]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG9/dff_[0]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG9/dff_[1]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG9/dff_[2]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG9/dff_[3]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG9/dff_[4]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG9/dff_[5]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG9/dff_[6]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">REG/REG9/dff_[7]/Q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mcu_single_cycle_lcd</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG1/dff_[0]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG1/dff_[1]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG1/dff_[2]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG1/dff_[3]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG1/dff_[4]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG1/dff_[5]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG1/dff_[6]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG1/dff_[7]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG1/dff_[8]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG1/dff_[9]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG1/dff_[10]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG1/dff_[11]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG1/dff_[12]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG1/dff_[13]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG1/dff_[14]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG1/dff_[15]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG2/dff_[0]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG2/dff_[1]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG2/dff_[2]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG2/dff_[3]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG2/dff_[4]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG2/dff_[5]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG2/dff_[6]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG2/dff_[7]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG2/dff_[8]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG2/dff_[9]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG2/dff_[10]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG2/dff_[11]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG2/dff_[12]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG2/dff_[13]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG2/dff_[14]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG2/dff_[15]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG3/dff_[0]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG3/dff_[1]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG3/dff_[2]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG3/dff_[3]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG3/dff_[4]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG3/dff_[5]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG3/dff_[6]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG3/dff_[7]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG3/dff_[8]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG3/dff_[9]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG3/dff_[10]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG3/dff_[11]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG3/dff_[12]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG3/dff_[13]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG3/dff_[14]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG3/dff_[15]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG4/dff_[0]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG4/dff_[1]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG4/dff_[2]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG4/dff_[3]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG4/dff_[4]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG4/dff_[5]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG4/dff_[6]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG4/dff_[7]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG4/dff_[8]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG4/dff_[9]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG4/dff_[10]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG4/dff_[11]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG4/dff_[12]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG4/dff_[13]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG4/dff_[14]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG4/dff_[15]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG5/dff_[0]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG5/dff_[1]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG5/dff_[2]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG5/dff_[3]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG5/dff_[4]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG5/dff_[5]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG5/dff_[6]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG5/dff_[7]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG5/dff_[8]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG5/dff_[9]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG5/dff_[10]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG5/dff_[11]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG5/dff_[12]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG5/dff_[13]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG5/dff_[14]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG5/dff_[15]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG6/dff_[0]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG6/dff_[1]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG6/dff_[2]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG6/dff_[3]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG6/dff_[4]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG6/dff_[5]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG6/dff_[6]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG6/dff_[7]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG6/dff_[8]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG6/dff_[9]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG6/dff_[10]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG6/dff_[11]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG6/dff_[12]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG6/dff_[13]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG6/dff_[14]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG6/dff_[15]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG7/dff_[0]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG7/dff_[1]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG7/dff_[2]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG7/dff_[3]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG7/dff_[4]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG7/dff_[5]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG7/dff_[6]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG7/dff_[7]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG7/dff_[8]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG7/dff_[9]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG7/dff_[10]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG7/dff_[11]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG7/dff_[12]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG7/dff_[13]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG7/dff_[14]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG7/dff_[15]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG8/dff_[0]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG8/dff_[1]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG8/dff_[2]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG8/dff_[3]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG8/dff_[4]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG8/dff_[5]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG8/dff_[6]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG8/dff_[7]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG8/dff_[8]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG8/dff_[9]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG8/dff_[10]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG8/dff_[11]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG8/dff_[12]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG8/dff_[13]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG8/dff_[14]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG8/dff_[15]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG9/dff_[0]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG9/dff_[1]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG9/dff_[2]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG9/dff_[3]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG9/dff_[4]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG9/dff_[5]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG9/dff_[6]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG9/dff_[7]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG9/dff_[8]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG9/dff_[9]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG9/dff_[10]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG9/dff_[11]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG9/dff_[12]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG9/dff_[13]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG9/dff_[14]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG9/dff_[15]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG10/dff_[0]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG10/dff_[1]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG10/dff_[2]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG10/dff_[3]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG10/dff_[4]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG10/dff_[5]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG10/dff_[6]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG10/dff_[7]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG10/dff_[8]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG10/dff_[9]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG10/dff_[10]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG10/dff_[11]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG10/dff_[12]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG10/dff_[13]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG10/dff_[14]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG10/dff_[15]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG11/dff_[0]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG11/dff_[1]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG11/dff_[2]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG11/dff_[3]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG11/dff_[4]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG11/dff_[5]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG11/dff_[6]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG11/dff_[7]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG11/dff_[8]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG11/dff_[9]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG11/dff_[10]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG11/dff_[11]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG11/dff_[12]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG11/dff_[13]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG11/dff_[14]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG11/dff_[15]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG12/dff_[0]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG12/dff_[1]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG12/dff_[2]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG12/dff_[3]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG12/dff_[4]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG12/dff_[5]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG12/dff_[6]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG12/dff_[7]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG12/dff_[8]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG12/dff_[9]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG12/dff_[10]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG12/dff_[11]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG12/dff_[12]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG12/dff_[13]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG12/dff_[14]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG12/dff_[15]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG13/dff_[0]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG13/dff_[1]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG13/dff_[2]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG13/dff_[3]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG13/dff_[4]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG13/dff_[5]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG13/dff_[6]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG13/dff_[7]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG13/dff_[8]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG13/dff_[9]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG13/dff_[10]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG13/dff_[11]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG13/dff_[12]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG13/dff_[13]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG13/dff_[14]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG13/dff_[15]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG14/dff_[0]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG14/dff_[1]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG14/dff_[2]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG14/dff_[3]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG14/dff_[4]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG14/dff_[5]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG14/dff_[6]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG14/dff_[7]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG14/dff_[8]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG14/dff_[9]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG14/dff_[10]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG14/dff_[11]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG14/dff_[12]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG14/dff_[13]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG14/dff_[14]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG14/dff_[15]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG15/dff_[0]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG15/dff_[1]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG15/dff_[2]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG15/dff_[3]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG15/dff_[4]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG15/dff_[5]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG15/dff_[6]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG15/dff_[7]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG15/dff_[8]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG15/dff_[9]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG15/dff_[10]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG15/dff_[11]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG15/dff_[12]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG15/dff_[13]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG15/dff_[14]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG15/dff_[15]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG16/dff_[0]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG16/dff_[1]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG16/dff_[2]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG16/dff_[3]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG16/dff_[4]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG16/dff_[5]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG16/dff_[6]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG16/dff_[7]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG16/dff_[8]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG16/dff_[9]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG16/dff_[10]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG16/dff_[11]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG16/dff_[12]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG16/dff_[13]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG16/dff_[14]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DMem/DREG16/dff_[15]/Q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mcu_single_cycle_lcd</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="old" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+

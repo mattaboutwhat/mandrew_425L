@@ -1,5 +1,7 @@
 `timescale 1ns / 1ps
-
+////////////////////////////
+// 
+////////////////////////////
 module test_top_lcd_test;
 
 	// Inputs
@@ -8,19 +10,19 @@ module test_top_lcd_test;
 	// Outputs
 	wire [3:0] dataout;
 	wire [2:0] control;
-	wire led;
+	wire clk1Hz;
 
 	// Instantiate the Unit Under Test (UUT)
 	top_lcd_test uut (
 		.clk(clk), 
 		.dataout(dataout), 
 		.control(control), 
-		.led(led)
+		.clk1Hz(clk1Hz)
 	);
 
 	always
-		#1 clk=~clk;
-		
+		#1 clk = ~clk;
+
 	initial begin
 		// Initialize Inputs
 		clk = 0;
