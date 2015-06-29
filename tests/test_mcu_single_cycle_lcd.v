@@ -37,28 +37,49 @@ module test_mcu_single_cycle_lcd;
 		// Initialize Inputs
 		clk_in = 0;
 		nClear = 0;
-		clk_en = 0;
+		clk_en = 1;
 		btn = 0;
 		rot_a = 0;
 		rot_b = 0;
 
 		// Wait 100 ns for global reset to finish
 		#100;
-        
+      nClear = 1;
 		// Add stimulus here
-		#100 btn = 1;
-		#100 btn = 0;
-		#200
-		#100 rot_a = 1;
-		#100 rot_b = 1;
-		#100 rot_a = 0;
-		#100 rot_b = 0;
-		#200
-		#100 rot_b = 1;
-		#100 rot_a = 1;
-		#100 rot_b = 0;
-		#100 rot_a = 0;
-		
+		#25000000;
+		#250000 btn = 1;
+		#250000 btn = 0;
+		#5000000;
+//		#250000 rot_a = 1;
+//		#250000 rot_b = 1;
+//		#250000 rot_a = 0;
+//		#250000 rot_b = 0;
+//		#5000000;
+		#250000 rot_b = 1;
+		#250000 rot_a = 1;
+		#250000 rot_b = 0;
+		#250000 rot_a = 0;
+		#5000000;
+		#250000 rot_b = 1;
+		#250000 rot_a = 1;
+		#250000 rot_b = 0;
+		#250000 rot_a = 0;
+		#5000000;
+		#250000 rot_b = 1;
+		#250000 rot_a = 1;
+		#250000 rot_b = 0;
+		#250000 rot_a = 0;
+		#5000000;
+		#250000 rot_b = 1;
+		#250000 rot_a = 1;
+		#250000 rot_b = 0;
+		#250000 rot_a = 0;
+		#5000000;
+		#250000 rot_b = 1;
+		#250000 rot_a = 1;
+		#250000 rot_b = 0;
+		#250000 rot_a = 0;
+		#5000000;
 	end
       
 endmodule

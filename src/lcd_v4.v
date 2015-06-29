@@ -8,7 +8,7 @@
 // Adapted from Shayan Daryoush's "PowerInit.v"
 //
 //////////////////////////////////////////////////////////////////////////////////
-module lcd(clk, dataout, control, sel, dd_data;
+module lcd(clk, dataout, control, sel, dd_data);
 	input clk;
 	input [7:0] dd_data;
 
@@ -214,7 +214,7 @@ module lcd(clk, dataout, control, sel, dd_data;
 					//loop or exit
 					16:begin if(delay==0) begin delay<=205000; sel<=sel+1; state<=17; end 
 								else delay<=delay-1; end
-					17:begin if(delay==0) begin 	if(sel==15) begin 				//next line; write DD Addr 0x40
+					17:begin if(delay==0) begin 	if(sel==16) begin 				//next line; write DD Addr 0x40
 																DR<=8'hC0; state<=1; end
 															else if(sel==31) begin 			//done, start over
 																state<=0; sel<=0; 	end

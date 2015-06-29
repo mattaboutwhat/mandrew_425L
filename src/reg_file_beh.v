@@ -1,17 +1,20 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-module reg_file_beh(A, B, Aaddr, Baddr, Caddr, C, load, nClear, clk);
+/////////////////////////////////////
+//
+/////////////////////////////////////
+module reg_file_beh(A, B, Aaddr, Baddr, Caddr, C, load, nClear, clk, m_state, m_data);
 
 	input 	[3:0]  	Aaddr, Baddr, Caddr;
 	input 	[15:0] 	C;
 	input 		 		load, nClear, clk;
-	
+	input 	[3:0] 	m_state;
 	output 	[15:0] 	A, B;
+	output reg [31:0] m_data;
 	
 	reg [15:0] Aout, Bout;
 	
-	reg [15:0] r0, r1, r2,  r3,  r4,  r5,  r6,  r7;
-	reg [15:0] r8, r9, r10, r11, r12, r13, r14, r15;
+	reg [15:0] r0, r1, r2,  r3,  r4,  r5,  r6,  r7,
+				  r8, r9, r10, r11, r12, r13, r14, r15;
 
 	assign A = Aout;
 	assign B = Bout;
@@ -124,8 +127,28 @@ module reg_file_beh(A, B, Aaddr, Baddr, Caddr, C, load, nClear, clk);
 				Aout <= 0;
 				Bout <= 0;
 			end
-			
 	end
-				
+	
+	//debug outputs
+	always @(m_state)
+		case(m_state)
+			0:  m_data<={r0, r1};
+			1:  m_data<={r1, r2};
+			2:  m_data<={r2, r3};
+			3:  m_data<={r3, r4};
+			4:  m_data<={r4, r5};
+			5:  m_data<={r5, r6};
+			6:  m_data<={r6, r7};
+			7:  m_data<={r7, r8};
+			8:  m_data<={r8, r9};
+			9:  m_data<={r9, r10};
+			10: m_data<={r10, r11};
+			11: m_data<={r11, r12};
+			12: m_data<={r12, r13};
+			13: m_data<={r13, r14};
+			14: m_data<={r14, r15};
+			15: m_data<={r15, r0};
+		endcase
+	
 
 endmodule

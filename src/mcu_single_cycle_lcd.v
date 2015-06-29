@@ -30,18 +30,27 @@ module mcu_single_cycle_lcd(clk_in, nClear, clk_en, lcd_dataout, lcd_control, di
 	wire [2:0]  ALUop;
 	//data mem stuff
 	wire [15:0] data_out;
+	//lcd and debug stuff
+	wire [1:0] d_state;
+	wire [3:0] m_state;
+	wire [31:0] m_data;
+	wire [31:0] r_data;
+	wire [4:0] d_sel;
+	wire [7:0] d_data;
 	//other stuff
 	wire nul=0;
 	
 //BUTTON AND QUAD ENC. KNOB
-	debounce 				BTN_DBNC 	(btn_clean, btn, clk_in);
-	edge_detect				BTN_EDGE 	(btn_edge, btn_clean, clk_in);
+	debounce 				BTN_DBNC 	(btn_clean, btn, clk5K);
+	edge_detect				BTN_EDGE 	(btn_edge, btn_clean, clk5K);
 
-	quad_debounce 			A_DBNC 		(rot_a_clean, !rot_a, clk_in);
-	quad_debounce 			B_DBNC 		(rot_b_clean, !rot_b, clk_in);
-	quad_states				Q_STATE		(cw, ccw, rot_a_clean, rot_b_clean, clk_in);
+	quad_debounce 			A_DBNC 		(rot_a_clean, !rot_a, clk5K);
+	quad_debounce 			B_DBNC 		(rot_b_clean, !rot_b, clk5K);
+	quad_states				Q_STATE		(cw, ccw, rot_a_clean, rot_b_clean, clk5K);
 	
-	counter_test			CNT_TEST		(display, cw, ccw, btn_edge, clk_in);
+	//counter_test			CNT_TEST		(display, cw, ccw, btn_edge, clk_in);
+	debug_states			D_STATES		(d_state, btn_edge, clk5K);
+	mem_states				M_STATES		(m_state, cw, ccw, clk5K);
 	
 //CLOCK MODULES
 	clk_div					CLKDIV	(clk_in, clk, clk_en);
@@ -53,7 +62,6 @@ module mcu_single_cycle_lcd(clk_in, nClear, clk_en, lcd_dataout, lcd_control, di
 	unsigned_add			PCadd		(PC_plus1, , 16'b1, PC, nul);
 	
 	//instruction memory (behavioral)
-//	instruct_mem			IM			(PC_next, INSTR, clk);    //old instruction memory
 	instruct_mem			IM			(PC, INSTR);
 	
 	//control 
@@ -70,7 +78,8 @@ module mcu_single_cycle_lcd(clk_in, nClear, clk_en, lcd_dataout, lcd_control, di
 	
 	//File register and its preceding mux
 	mux2_4bit				MUX_REG	(INSTR[7:4], INSTR[3:0], RegDst, reg_mux_out);
-	reg_file_struct 		REG		(data1, data2, INSTR[11:8], INSTR[7:4], reg_mux_out, write_back_data, RegWrite, nClear, clk);
+//	reg_file_struct 		REG		(data1, data2, INSTR[11:8], INSTR[7:4], reg_mux_out, write_back_data, RegWrite, nClear, clk);
+	reg_file_beh			REG		(data1, data2, INSTR[11:8], INSTR[7:4], reg_mux_out, write_back_data, RegWrite, nClear, clk, m_state, m_data);
 	
 	//ALU and its mux
 	mux2_16bit				MUX_ALU	(data2, sign_ext_out, ALUsrc, alu_mux_out);
@@ -82,6 +91,8 @@ module mcu_single_cycle_lcd(clk_in, nClear, clk_en, lcd_dataout, lcd_control, di
 	
 	
 //LCD MODULES
-	lcd						LCD		(clk_in, lcd_dataout, lcd_control, INSTR[15:12], INSTR[11:8], INSTR[7:4], INSTR[3:0], PC);
+	lcd_data					LCD_DATA	(d_data, d_state, d_sel, INSTR, PC, m_state, m_data, r_data, clk_in);
+	lcd 						LCD		(clk_in, lcd_dataout, lcd_control, d_sel, d_data);
+	//lcd						LCD		(clk_in, lcd_dataout, lcd_control, INSTR[15:12], INSTR[11:8], INSTR[7:4], INSTR[3:0], PC);
 	
 endmodule

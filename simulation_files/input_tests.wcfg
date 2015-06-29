@@ -94,6 +94,14 @@
          <obj_property name="ObjectShortName">ccw</obj_property>
          <obj_property name="label">ccw_state</obj_property>
       </wvobject>
+      <wvobject fp_name="/test_mcu_single_cycle_lcd/uut/D_STATES/d_state" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">d_state[1:0]</obj_property>
+         <obj_property name="ObjectShortName">d_state[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_mcu_single_cycle_lcd/uut/M_STATES/m_state" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">m_state[1:0]</obj_property>
+         <obj_property name="ObjectShortName">m_state[1:0]</obj_property>
+      </wvobject>
    </wvobject>
    <wvobject fp_name="group30" type="group">
       <obj_property name="label">Button Stuff</obj_property>

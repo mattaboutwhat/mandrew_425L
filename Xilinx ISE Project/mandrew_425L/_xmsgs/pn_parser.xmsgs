@@ -8,5 +8,101 @@
 <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/My Documents/University/Year 5/Quarter 3/ECE 425/mandrew_425L/src/alu.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/My Documents/University/Year 5/Quarter 3/ECE 425/mandrew_425L/src/and_16bit.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/My Documents/University/Year 5/Quarter 3/ECE 425/mandrew_425L/src/clk_5K.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/My Documents/University/Year 5/Quarter 3/ECE 425/mandrew_425L/src/clk_div.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/My Documents/University/Year 5/Quarter 3/ECE 425/mandrew_425L/src/comparator_v2.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/My Documents/University/Year 5/Quarter 3/ECE 425/mandrew_425L/src/control.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/My Documents/University/Year 5/Quarter 3/ECE 425/mandrew_425L/src/counter_test.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/My Documents/University/Year 5/Quarter 3/ECE 425/mandrew_425L/src/d_ff_v2.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/My Documents/University/Year 5/Quarter 3/ECE 425/mandrew_425L/src/debounce.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/My Documents/University/Year 5/Quarter 3/ECE 425/mandrew_425L/src/demux16_1bit.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/My Documents/University/Year 5/Quarter 3/ECE 425/mandrew_425L/src/edge_detect.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/My Documents/University/Year 5/Quarter 3/ECE 425/mandrew_425L/src/full_adder.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/My Documents/University/Year 5/Quarter 3/ECE 425/mandrew_425L/src/instruct_mem_v3.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/My Documents/University/Year 5/Quarter 3/ECE 425/mandrew_425L/src/lcd_decode.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/My Documents/University/Year 5/Quarter 3/ECE 425/mandrew_425L/src/lcd_v3.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/My Documents/University/Year 5/Quarter 3/ECE 425/mandrew_425L/src/mcu_single_cycle_lcd.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/My Documents/University/Year 5/Quarter 3/ECE 425/mandrew_425L/src/mux16_16bit_v3.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/My Documents/University/Year 5/Quarter 3/ECE 425/mandrew_425L/src/mux2_16bit.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/My Documents/University/Year 5/Quarter 3/ECE 425/mandrew_425L/src/mux2_1bit_v2.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/My Documents/University/Year 5/Quarter 3/ECE 425/mandrew_425L/src/mux2_4bit.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/My Documents/University/Year 5/Quarter 3/ECE 425/mandrew_425L/src/mux8_16bit.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/My Documents/University/Year 5/Quarter 3/ECE 425/mandrew_425L/src/mux8_1bit.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/My Documents/University/Year 5/Quarter 3/ECE 425/mandrew_425L/src/or_16bit.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/My Documents/University/Year 5/Quarter 3/ECE 425/mandrew_425L/src/prog_count.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/My Documents/University/Year 5/Quarter 3/ECE 425/mandrew_425L/src/quad_debounce.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/My Documents/University/Year 5/Quarter 3/ECE 425/mandrew_425L/src/quad_states.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/My Documents/University/Year 5/Quarter 3/ECE 425/mandrew_425L/src/reg_16bit.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/My Documents/University/Year 5/Quarter 3/ECE 425/mandrew_425L/src/reg_data_mem.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/My Documents/University/Year 5/Quarter 3/ECE 425/mandrew_425L/src/reg_file_struct_v2.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/My Documents/University/Year 5/Quarter 3/ECE 425/mandrew_425L/src/sign_extend_v2.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/My Documents/University/Year 5/Quarter 3/ECE 425/mandrew_425L/src/twos_comp_v2.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/My Documents/University/Year 5/Quarter 3/ECE 425/mandrew_425L/src/unsigned_add.v&quot; into library work</arg>
+</msg>
+
 </messages>
 
