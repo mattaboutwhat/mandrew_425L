@@ -1,28 +1,8 @@
 Release 14.6 Drc P.68d (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-Sun Jun 21 23:39:33 2015
+Tue Jul 07 18:32:01 2015
 
 drc -z mcu_single_cycle_lcd.ncd mcu_single_cycle_lcd.pcf
 
-WARNING:PhysDesignRules:372 - Gated clock. Clock net IM/INSTR_not0001 is sourced
-   by a combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:781 - PULLUP on an active net. PULLUP of comp display<0>
-   is set but the tri state is not configured. 
-WARNING:PhysDesignRules:781 - PULLUP on an active net. PULLUP of comp display<1>
-   is set but the tri state is not configured. 
-WARNING:PhysDesignRules:781 - PULLUP on an active net. PULLUP of comp display<2>
-   is set but the tri state is not configured. 
-WARNING:PhysDesignRules:781 - PULLUP on an active net. PULLUP of comp display<3>
-   is set but the tri state is not configured. 
-WARNING:PhysDesignRules:781 - PULLUP on an active net. PULLUP of comp display<4>
-   is set but the tri state is not configured. 
-WARNING:PhysDesignRules:781 - PULLUP on an active net. PULLUP of comp display<5>
-   is set but the tri state is not configured. 
-WARNING:PhysDesignRules:781 - PULLUP on an active net. PULLUP of comp display<6>
-   is set but the tri state is not configured. 
-WARNING:PhysDesignRules:781 - PULLUP on an active net. PULLUP of comp display<7>
-   is set but the tri state is not configured. 
-DRC detected 0 errors and 9 warnings.  Please see the previously displayed
-individual error or warning messages for more details.
+DRC detected 0 errors and 0 warnings.

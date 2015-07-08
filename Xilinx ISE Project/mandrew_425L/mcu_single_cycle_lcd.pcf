@@ -1,5 +1,5 @@
 //! **************************************************************************
-// Written by: Map P.68d on Sun Jun 21 23:38:52 2015
+// Written by: Map P.68d on Tue Jul 07 18:30:28 2015
 //! **************************************************************************
 
 SCHEMATIC START;
@@ -11,14 +11,6 @@ COMP "lcd_dataout<1>" LOCATE = SITE "R16" LEVEL 1;
 COMP "lcd_dataout<2>" LOCATE = SITE "P17" LEVEL 1;
 COMP "lcd_dataout<3>" LOCATE = SITE "M15" LEVEL 1;
 COMP "nClear" LOCATE = SITE "N17" LEVEL 1;
-COMP "display<0>" LOCATE = SITE "F12" LEVEL 1;
-COMP "display<1>" LOCATE = SITE "E12" LEVEL 1;
-COMP "display<2>" LOCATE = SITE "E11" LEVEL 1;
-COMP "display<3>" LOCATE = SITE "F11" LEVEL 1;
-COMP "display<4>" LOCATE = SITE "C11" LEVEL 1;
-COMP "display<5>" LOCATE = SITE "D11" LEVEL 1;
-COMP "display<6>" LOCATE = SITE "E9" LEVEL 1;
-COMP "display<7>" LOCATE = SITE "F9" LEVEL 1;
 COMP "clk_en" LOCATE = SITE "H18" LEVEL 1;
 COMP "clk_in" LOCATE = SITE "C9" LEVEL 1;
 COMP "lcd_control<0>" LOCATE = SITE "L17" LEVEL 1;

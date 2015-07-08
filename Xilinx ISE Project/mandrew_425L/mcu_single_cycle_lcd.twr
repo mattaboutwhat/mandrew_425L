@@ -45,10 +45,7 @@ Setup/Hold to clock clk_in
             |Max Setup to|Max Hold to |                  | Clock  |
 Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
 ------------+------------+------------+------------------+--------+
-btn         |    3.655(R)|    0.472(R)|clk_in_BUFGP      |   0.000|
-clk_en      |    3.894(R)|    0.904(R)|clk_in_BUFGP      |   0.000|
-rot_a       |    4.636(R)|    0.348(R)|clk_in_BUFGP      |   0.000|
-rot_b       |    4.189(R)|    1.047(R)|clk_in_BUFGP      |   0.000|
+clk_en      |    5.084(R)|   -0.017(R)|clk_in_BUFGP      |   0.000|
 ------------+------------+------------+------------------+--------+
 
 Clock clk_in to Pad
@@ -56,20 +53,12 @@ Clock clk_in to Pad
               | clk (edge) |                  | Clock  |
 Destination   |   to PAD   |Internal Clock(s) | Phase  |
 --------------+------------+------------------+--------+
-display<0>    |    8.714(R)|clk_in_BUFGP      |   0.000|
-display<1>    |    8.168(R)|clk_in_BUFGP      |   0.000|
-display<2>    |    8.231(R)|clk_in_BUFGP      |   0.000|
-display<3>    |    7.952(R)|clk_in_BUFGP      |   0.000|
-display<4>    |    8.125(R)|clk_in_BUFGP      |   0.000|
-display<5>    |    8.183(R)|clk_in_BUFGP      |   0.000|
-display<6>    |    8.331(R)|clk_in_BUFGP      |   0.000|
-display<7>    |    9.199(R)|clk_in_BUFGP      |   0.000|
-lcd_control<1>|   10.128(R)|clk_in_BUFGP      |   0.000|
-lcd_control<2>|   10.200(R)|clk_in_BUFGP      |   0.000|
-lcd_dataout<0>|   10.421(R)|clk_in_BUFGP      |   0.000|
-lcd_dataout<1>|   10.441(R)|clk_in_BUFGP      |   0.000|
-lcd_dataout<2>|   10.411(R)|clk_in_BUFGP      |   0.000|
-lcd_dataout<3>|    9.626(R)|clk_in_BUFGP      |   0.000|
+lcd_control<1>|   10.146(R)|clk_in_BUFGP      |   0.000|
+lcd_control<2>|    9.520(R)|clk_in_BUFGP      |   0.000|
+lcd_dataout<0>|    9.815(R)|clk_in_BUFGP      |   0.000|
+lcd_dataout<1>|   10.029(R)|clk_in_BUFGP      |   0.000|
+lcd_dataout<2>|    9.971(R)|clk_in_BUFGP      |   0.000|
+lcd_dataout<3>|   10.425(R)|clk_in_BUFGP      |   0.000|
 --------------+------------+------------------+--------+
 
 Clock to Setup on destination clock clk_in
@@ -77,18 +66,18 @@ Clock to Setup on destination clock clk_in
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-clk_in         |    9.517|         |         |         |
+clk_in         |   10.935|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 
-Analysis completed Sun Jun 21 23:39:29 2015 
+Analysis completed Tue Jul 07 18:31:57 2015 
 --------------------------------------------------------------------------------
 
 Trace Settings:
 -------------------------
 Trace Settings 
 
-Peak Memory Usage: 179 MB
+Peak Memory Usage: 207 MB
 
 
 

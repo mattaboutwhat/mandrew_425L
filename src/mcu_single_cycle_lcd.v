@@ -78,15 +78,18 @@ module mcu_single_cycle_lcd(clk_in, nClear, clk_en, lcd_dataout, lcd_control, di
 	
 	//File register and its preceding mux
 	mux2_4bit				MUX_REG	(INSTR[7:4], INSTR[3:0], RegDst, reg_mux_out);
+	reg_file_beh			REG		(data1, data2, INSTR[11:8], INSTR[7:4], reg_mux_out, write_back_data, RegWrite, nClear, m_state, m_data);
+//	reg_file_beh			REG		(data1, data2, INSTR[11:8], INSTR[7:4], reg_mux_out, write_back_data, RegWrite, nClear, clk, m_state, m_data);
 //	reg_file_struct 		REG		(data1, data2, INSTR[11:8], INSTR[7:4], reg_mux_out, write_back_data, RegWrite, nClear, clk);
-	reg_file_beh			REG		(data1, data2, INSTR[11:8], INSTR[7:4], reg_mux_out, write_back_data, RegWrite, nClear, clk, m_state, m_data);
 	
 	//ALU and its mux
 	mux2_16bit				MUX_ALU	(data2, sign_ext_out, ALUsrc, alu_mux_out);
 	alu						ALU		(data1, alu_mux_out, Cin, ALUop, alu_out, Cout, V, L, G, E);
 
 	//data mem and its output mux
-	reg_data_mem			DMem		(data_out, alu_out, data2, MemWrite, MemRead, clk);
+	reg_data_mem_beh		DMem		(data_out, alu_out, data2, MemWrite, MemRead, nClear, m_state, r_data);
+//	reg_data_mem_beh		DMem		(data_out, alu_out, data2, MemWrite, MemRead, clk, nClear, m_state, r_data);
+//	reg_data_mem			DMem		(data_out, alu_out, data2, MemWrite, MemRead, clk);
 	mux2_16bit				DOutMux	(alu_out, data_out, MemToReg, write_back_data);
 	
 	

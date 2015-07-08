@@ -135,117 +135,85 @@
    <wvobject fp_name="group22" type="group">
       <obj_property name="label">DMEM</obj_property>
       <obj_property name="DisplayName">label</obj_property>
-      <wvobject fp_name="/test_mcu_single_cycle_lcd/uut/DMem/reg1_out" type="array" db_ref_id="1">
-         <obj_property name="DisplayName">label</obj_property>
-         <obj_property name="ElementShortName">reg1_out[15:0]</obj_property>
-         <obj_property name="ObjectShortName">reg1_out[15:0]</obj_property>
-         <obj_property name="label">D0</obj_property>
-         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/test_mcu_single_cycle_lcd/uut/DMem/r0" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">r0[15:0]</obj_property>
+         <obj_property name="ObjectShortName">r0[15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
       </wvobject>
-      <wvobject fp_name="/test_mcu_single_cycle_lcd/uut/DMem/reg2_out" type="array" db_ref_id="1">
-         <obj_property name="DisplayName">label</obj_property>
-         <obj_property name="ElementShortName">reg2_out[15:0]</obj_property>
-         <obj_property name="ObjectShortName">reg2_out[15:0]</obj_property>
-         <obj_property name="label">D1</obj_property>
-         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/test_mcu_single_cycle_lcd/uut/DMem/r1" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">r1[15:0]</obj_property>
+         <obj_property name="ObjectShortName">r1[15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
       </wvobject>
-      <wvobject fp_name="/test_mcu_single_cycle_lcd/uut/DMem/reg3_out" type="array" db_ref_id="1">
-         <obj_property name="DisplayName">label</obj_property>
-         <obj_property name="ElementShortName">reg3_out[15:0]</obj_property>
-         <obj_property name="ObjectShortName">reg3_out[15:0]</obj_property>
-         <obj_property name="label">D2</obj_property>
-         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/test_mcu_single_cycle_lcd/uut/DMem/r2" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">r2[15:0]</obj_property>
+         <obj_property name="ObjectShortName">r2[15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
       </wvobject>
-      <wvobject fp_name="/test_mcu_single_cycle_lcd/uut/DMem/reg4_out" type="array" db_ref_id="1">
-         <obj_property name="DisplayName">label</obj_property>
-         <obj_property name="ElementShortName">reg4_out[15:0]</obj_property>
-         <obj_property name="ObjectShortName">reg4_out[15:0]</obj_property>
-         <obj_property name="label">D3</obj_property>
-         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/test_mcu_single_cycle_lcd/uut/DMem/r3" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">r3[15:0]</obj_property>
+         <obj_property name="ObjectShortName">r3[15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
       </wvobject>
-      <wvobject fp_name="/test_mcu_single_cycle_lcd/uut/DMem/reg5_out" type="array" db_ref_id="1">
-         <obj_property name="DisplayName">label</obj_property>
-         <obj_property name="ElementShortName">reg5_out[15:0]</obj_property>
-         <obj_property name="ObjectShortName">reg5_out[15:0]</obj_property>
-         <obj_property name="label">D4</obj_property>
-         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/test_mcu_single_cycle_lcd/uut/DMem/r4" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">r4[15:0]</obj_property>
+         <obj_property name="ObjectShortName">r4[15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
       </wvobject>
-      <wvobject fp_name="/test_mcu_single_cycle_lcd/uut/DMem/reg6_out" type="array" db_ref_id="1">
-         <obj_property name="DisplayName">label</obj_property>
-         <obj_property name="ElementShortName">reg6_out[15:0]</obj_property>
-         <obj_property name="ObjectShortName">reg6_out[15:0]</obj_property>
-         <obj_property name="label">D5</obj_property>
-         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/test_mcu_single_cycle_lcd/uut/DMem/r5" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">r5[15:0]</obj_property>
+         <obj_property name="ObjectShortName">r5[15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
       </wvobject>
-      <wvobject fp_name="/test_mcu_single_cycle_lcd/uut/DMem/reg7_out" type="array" db_ref_id="1">
-         <obj_property name="DisplayName">label</obj_property>
-         <obj_property name="ElementShortName">reg7_out[15:0]</obj_property>
-         <obj_property name="ObjectShortName">reg7_out[15:0]</obj_property>
-         <obj_property name="label">D6</obj_property>
-         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/test_mcu_single_cycle_lcd/uut/DMem/r6" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">r6[15:0]</obj_property>
+         <obj_property name="ObjectShortName">r6[15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
       </wvobject>
-      <wvobject fp_name="/test_mcu_single_cycle_lcd/uut/DMem/reg8_out" type="array" db_ref_id="1">
-         <obj_property name="DisplayName">label</obj_property>
-         <obj_property name="ElementShortName">reg8_out[15:0]</obj_property>
-         <obj_property name="ObjectShortName">reg8_out[15:0]</obj_property>
-         <obj_property name="label">D7</obj_property>
-         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/test_mcu_single_cycle_lcd/uut/DMem/r7" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">r7[15:0]</obj_property>
+         <obj_property name="ObjectShortName">r7[15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
       </wvobject>
-      <wvobject fp_name="/test_mcu_single_cycle_lcd/uut/DMem/reg9_out" type="array" db_ref_id="1">
-         <obj_property name="DisplayName">label</obj_property>
-         <obj_property name="ElementShortName">reg9_out[15:0]</obj_property>
-         <obj_property name="ObjectShortName">reg9_out[15:0]</obj_property>
-         <obj_property name="label">D8</obj_property>
-         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/test_mcu_single_cycle_lcd/uut/DMem/r8" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">r8[15:0]</obj_property>
+         <obj_property name="ObjectShortName">r8[15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
       </wvobject>
-      <wvobject fp_name="/test_mcu_single_cycle_lcd/uut/DMem/reg10_out" type="array" db_ref_id="1">
-         <obj_property name="DisplayName">label</obj_property>
-         <obj_property name="ElementShortName">reg10_out[15:0]</obj_property>
-         <obj_property name="ObjectShortName">reg10_out[15:0]</obj_property>
-         <obj_property name="label">D9</obj_property>
-         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/test_mcu_single_cycle_lcd/uut/DMem/r9" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">r9[15:0]</obj_property>
+         <obj_property name="ObjectShortName">r9[15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
       </wvobject>
-      <wvobject fp_name="/test_mcu_single_cycle_lcd/uut/DMem/reg11_out" type="array" db_ref_id="1">
-         <obj_property name="DisplayName">label</obj_property>
-         <obj_property name="ElementShortName">reg11_out[15:0]</obj_property>
-         <obj_property name="ObjectShortName">reg11_out[15:0]</obj_property>
-         <obj_property name="label">D10</obj_property>
-         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/test_mcu_single_cycle_lcd/uut/DMem/r10" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">r10[15:0]</obj_property>
+         <obj_property name="ObjectShortName">r10[15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
       </wvobject>
-      <wvobject fp_name="/test_mcu_single_cycle_lcd/uut/DMem/reg12_out" type="array" db_ref_id="1">
-         <obj_property name="DisplayName">label</obj_property>
-         <obj_property name="ElementShortName">reg12_out[15:0]</obj_property>
-         <obj_property name="ObjectShortName">reg12_out[15:0]</obj_property>
-         <obj_property name="label">D11</obj_property>
-         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/test_mcu_single_cycle_lcd/uut/DMem/r11" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">r11[15:0]</obj_property>
+         <obj_property name="ObjectShortName">r11[15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
       </wvobject>
-      <wvobject fp_name="/test_mcu_single_cycle_lcd/uut/DMem/reg13_out" type="array" db_ref_id="1">
-         <obj_property name="DisplayName">label</obj_property>
-         <obj_property name="ElementShortName">reg13_out[15:0]</obj_property>
-         <obj_property name="ObjectShortName">reg13_out[15:0]</obj_property>
-         <obj_property name="label">D12</obj_property>
-         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/test_mcu_single_cycle_lcd/uut/DMem/r12" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">r12[15:0]</obj_property>
+         <obj_property name="ObjectShortName">r12[15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
       </wvobject>
-      <wvobject fp_name="/test_mcu_single_cycle_lcd/uut/DMem/reg14_out" type="array" db_ref_id="1">
-         <obj_property name="DisplayName">label</obj_property>
-         <obj_property name="ElementShortName">reg14_out[15:0]</obj_property>
-         <obj_property name="ObjectShortName">reg14_out[15:0]</obj_property>
-         <obj_property name="label">D13</obj_property>
-         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/test_mcu_single_cycle_lcd/uut/DMem/r13" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">r13[15:0]</obj_property>
+         <obj_property name="ObjectShortName">r13[15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
       </wvobject>
-      <wvobject fp_name="/test_mcu_single_cycle_lcd/uut/DMem/reg15_out" type="array" db_ref_id="1">
-         <obj_property name="DisplayName">label</obj_property>
-         <obj_property name="ElementShortName">reg15_out[15:0]</obj_property>
-         <obj_property name="ObjectShortName">reg15_out[15:0]</obj_property>
-         <obj_property name="label">D14</obj_property>
-         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/test_mcu_single_cycle_lcd/uut/DMem/r14" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">r14[15:0]</obj_property>
+         <obj_property name="ObjectShortName">r14[15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
       </wvobject>
-      <wvobject fp_name="/test_mcu_single_cycle_lcd/uut/DMem/reg16_out" type="array" db_ref_id="1">
-         <obj_property name="DisplayName">label</obj_property>
-         <obj_property name="ElementShortName">reg16_out[15:0]</obj_property>
-         <obj_property name="ObjectShortName">reg16_out[15:0]</obj_property>
-         <obj_property name="label">D15</obj_property>
-         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/test_mcu_single_cycle_lcd/uut/DMem/r15" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">r15[15:0]</obj_property>
+         <obj_property name="ObjectShortName">r15[15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
       </wvobject>
    </wvobject>
    <wvobject fp_name="group56" type="group">
@@ -287,6 +255,7 @@
       <wvobject fp_name="/test_mcu_single_cycle_lcd/uut/sign_ext_out" type="array" db_ref_id="1">
          <obj_property name="ElementShortName">sign_ext_out[15:0]</obj_property>
          <obj_property name="ObjectShortName">sign_ext_out[15:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/test_mcu_single_cycle_lcd/uut/branch_addr" type="array" db_ref_id="1">
          <obj_property name="ElementShortName">branch_addr[15:0]</obj_property>

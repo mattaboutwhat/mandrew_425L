@@ -6,7 +6,7 @@ module instruct_mem(PC, INSTR);
 
 	always @(PC) begin
 		case(PC)
-/*			0:		INSTR = 16'h0000;	//interrupt vector
+			0:		INSTR = 16'hF001;	//interrupt vector
 			1:		INSTR = 16'h3011; //ADDi; R1 := R0 + 1 
 			2:  	INSTR = 16'h3121; //ADDi; R2 := R1 + 1			
 			3:  	INSTR = 16'h3231; //ADDi; R3 := R2 + 1
@@ -42,14 +42,14 @@ module instruct_mem(PC, INSTR);
 			33: 	INSTR = 16'hF001; //JUMP 1
 			34: 	INSTR = 16'h8330; //LW DRAM($R3+0) -> R3
 			35:   INSTR = 16'hF001;	//JUMP 1
-			default:  INSTR=16'hD001; //Gibberish, will do nothing	*/
-			
-			0:		INSTR = 16'h0000;	//interrupt vector
+			default:  INSTR=16'hD001; //Gibberish, will do nothing
+		
+/*			0:		INSTR = 16'h0000;	//interrupt vector
 			1:		INSTR = 16'h3011; //ADDi; R1 := R0 + 1
 			2:		INSTR = 16'hE011;	//BNE $R0 $R1 +1
 			3:		INSTR = 16'hF001;	//JMP 1 				-> 				should be skipped
 			4:		INSTR = 16'h3121; //ADDi; R2 := R1 + 1
-			5:		INSTR = 16'hF001;	//JMP 1
+*/			5:		INSTR = 16'hF001;	//JMP 1
 		endcase
 	end
 

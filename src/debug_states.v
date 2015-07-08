@@ -18,10 +18,6 @@ module debug_states(d_state, btn, clk);
 			end
 			2: begin 
 					if (btn)
-						d_state<=3;
-			end
-			3: begin 
-					if (btn)
 						d_state<=0;
 			end
 			default: d_state<=0;

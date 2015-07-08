@@ -324,14 +324,26 @@ module lcd_data(data, state, sel, INSTR, PC, m_state, m_data, r_data, clk);
 			2: begin //DRAM display
 				case(sel)
 					0: data<=8'h44; //D
-					1: data<=8'h65; //e
-					2: data<=8'h66; //f
-					3: data<=8'h61; //a
-					4: data<=8'h75; //u
-					5: data<=8'h6C; //l
-					6: data<=8'h74; //t
-					7: data<=8'h32; //2
-					default:data<=8'h20;
+					1: data<=8'h4D; //M
+					2: data<=8'h65; //e
+					3: data<=8'h6D; //m
+					4: data<=m_s_l; //Current Register Number
+					5: data<=8'h3A; //:
+					6: data<=D0; //
+					7: data<=D1; //
+					8: data<=D2; //
+					9: data<=D3; //
+					16:data<=8'h44; //D
+					17:data<=8'h4D; //M
+					18:data<=8'h65; //e
+					19:data<=8'h6D; //m
+					20:data<=m_sp1_l; //Next Register Number
+					21:data<=8'h3A; //:
+					22:data<=D4; //
+					23:data<=D5; //
+					24:data<=D6; //
+					25:data<=D7; //
+					default:data<=8'h20; //space
 				endcase
 			end
 			3:	//I dunno

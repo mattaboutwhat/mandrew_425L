@@ -107,58 +107,58 @@ Slice Utilization Ratio Delta      : 5
 Compiling verilog file "../../src/mux2_1bit_v2.v" in library work
 Compiling verilog file "../../src/mux2_16bit.v" in library work
 Module <mux2_1bit> compiled
-Compiling verilog file "../../src/mux8_16bit.v" in library work
-Module <mux2_16bit> compiled
 Compiling verilog file "../../src/full_adder.v" in library work
-Module <mux8_16bit> compiled
-Compiling verilog file "../../src/d_ff_v2.v" in library work
+Module <mux2_16bit> compiled
+Compiling verilog file "../../src/unsigned_add_4bit.v" in library work
 Module <full_adder> compiled
 Compiling verilog file "../../src/unsigned_add.v" in library work
-Module <d_ff_beh> compiled
+Module <u_add_4bit> compiled
 Compiling verilog file "../../src/twos_comp_v2.v" in library work
 Module <unsigned_add> compiled
-Compiling verilog file "../../src/reg_16bit.v" in library work
-Module <twos_comp> compiled
 Compiling verilog file "../../src/or_16bit.v" in library work
-Module <reg_16bit> compiled
+Module <twos_comp> compiled
 Compiling verilog file "../../src/mux8_1bit.v" in library work
 Module <or_16bit> compiled
-Compiling verilog file "../../src/mux16_16bit_v3.v" in library work
+Compiling verilog file "../../src/mux8_16bit.v" in library work
 Module <mux8_1bit> compiled
 Compiling verilog file "../../src/lcd_decode.v" in library work
-Module <mux16_16bit> compiled
-Compiling verilog file "../../src/demux16_1bit.v" in library work
+Module <mux8_16bit> compiled
+Compiling verilog file "../../src/d_ff_v2.v" in library work
 Module <lcd_decode> compiled
 Compiling verilog file "../../src/comparator_v2.v" in library work
-Module <demux16_1bit> compiled
+Module <d_ff_beh> compiled
 Compiling verilog file "../../src/and_16bit.v" in library work
 Module <comparator> compiled
 Compiling verilog file "../../src/sign_extend_v2.v" in library work
 Module <and_16bit> compiled
-Compiling verilog file "../../src/reg_file_struct_v2.v" in library work
+Compiling verilog file "../../src/reg_file_beh_v2.v" in library work
 Module <sign_extend> compiled
-Compiling verilog file "../../src/reg_data_mem.v" in library work
-Module <reg_file_struct> compiled
+Compiling verilog file "../../src/reg_data_mem_beh_v2.v" in library work
+Module <reg_file_beh> compiled
 Compiling verilog file "../../src/quad_states.v" in library work
-Module <reg_data_mem> compiled
+Module <reg_data_mem_beh> compiled
 Compiling verilog file "../../src/quad_debounce.v" in library work
 Module <quad_states> compiled
 Compiling verilog file "../../src/prog_count.v" in library work
 Module <quad_debounce> compiled
 Compiling verilog file "../../src/mux2_4bit.v" in library work
 Module <prog_count> compiled
-Compiling verilog file "../../src/lcd_v3.v" in library work
+Compiling verilog file "../../src/mem_states.v" in library work
 Module <mux2_4bit> compiled
-Compiling verilog file "../../src/instruct_mem_v3.v" in library work
+Compiling verilog file "../../src/lcd_v4.v" in library work
+Module <mem_states> compiled
+Compiling verilog file "../../src/lcd_data.v" in library work
 Module <lcd> compiled
+Compiling verilog file "../../src/instruct_mem_v3.v" in library work
+Module <lcd_data> compiled
 Compiling verilog file "../../src/edge_detect.v" in library work
 Module <instruct_mem> compiled
-Compiling verilog file "../../src/debounce.v" in library work
+Compiling verilog file "../../src/debug_states.v" in library work
 Module <edge_detect> compiled
-Compiling verilog file "../../src/counter_test.v" in library work
-Module <debounce> compiled
+Compiling verilog file "../../src/debounce.v" in library work
+Module <debug_states> compiled
 Compiling verilog file "../../src/control.v" in library work
-Module <counter_test> compiled
+Module <debounce> compiled
 Compiling verilog file "../../src/clk_div.v" in library work
 Module <control> compiled
 Compiling verilog file "../../src/clk_5K.v" in library work
@@ -185,7 +185,9 @@ Analyzing hierarchy for module <quad_debounce> in library <work>.
 
 Analyzing hierarchy for module <quad_states> in library <work>.
 
-Analyzing hierarchy for module <counter_test> in library <work>.
+Analyzing hierarchy for module <debug_states> in library <work>.
+
+Analyzing hierarchy for module <mem_states> in library <work>.
 
 Analyzing hierarchy for module <clk_div> in library <work>.
 
@@ -205,11 +207,13 @@ Analyzing hierarchy for module <mux2_16bit> in library <work>.
 
 Analyzing hierarchy for module <mux2_4bit> in library <work>.
 
-Analyzing hierarchy for module <reg_file_struct> in library <work>.
+Analyzing hierarchy for module <reg_file_beh> in library <work>.
 
 Analyzing hierarchy for module <alu> in library <work>.
 
-Analyzing hierarchy for module <reg_data_mem> in library <work>.
+Analyzing hierarchy for module <reg_data_mem_beh> in library <work>.
+
+Analyzing hierarchy for module <lcd_data> in library <work>.
 
 Analyzing hierarchy for module <lcd> in library <work>.
 
@@ -218,44 +222,6 @@ Analyzing hierarchy for module <d_ff_beh> in library <work>.
 Analyzing hierarchy for module <full_adder> in library <work>.
 
 Analyzing hierarchy for module <mux2_1bit> in library <work>.
-
-Analyzing hierarchy for module <demux16_1bit> in library <work>.
-
-Analyzing hierarchy for module <mux2_16bit> in library <work>.
-
-Analyzing hierarchy for module <mux2_16bit> in library <work>.
-
-Analyzing hierarchy for module <mux2_16bit> in library <work>.
-
-Analyzing hierarchy for module <mux2_16bit> in library <work>.
-
-Analyzing hierarchy for module <mux2_16bit> in library <work>.
-
-Analyzing hierarchy for module <mux2_16bit> in library <work>.
-
-Analyzing hierarchy for module <mux2_16bit> in library <work>.
-
-Analyzing hierarchy for module <mux2_16bit> in library <work>.
-
-Analyzing hierarchy for module <mux2_16bit> in library <work>.
-
-Analyzing hierarchy for module <mux2_16bit> in library <work>.
-
-Analyzing hierarchy for module <mux2_16bit> in library <work>.
-
-Analyzing hierarchy for module <mux2_16bit> in library <work>.
-
-Analyzing hierarchy for module <mux2_16bit> in library <work>.
-
-Analyzing hierarchy for module <mux2_16bit> in library <work>.
-
-Analyzing hierarchy for module <mux2_16bit> in library <work>.
-
-Analyzing hierarchy for module <mux2_16bit> in library <work>.
-
-Analyzing hierarchy for module <reg_16bit> in library <work>.
-
-Analyzing hierarchy for module <mux16_16bit> in library <work>.
 
 Analyzing hierarchy for module <and_16bit> in library <work>.
 
@@ -273,135 +239,11 @@ Analyzing hierarchy for module <mux8_1bit> in library <work>.
 
 Analyzing hierarchy for module <lcd_decode> in library <work>.
 
-Analyzing hierarchy for module <mux2_1bit> in library <work>.
+Analyzing hierarchy for module <u_add_4bit> in library <work>.
 
-Analyzing hierarchy for module <d_ff_beh> in library <work>.
-
-Analyzing hierarchy for module <d_ff_beh> in library <work>.
-
-Analyzing hierarchy for module <d_ff_beh> in library <work>.
-
-Analyzing hierarchy for module <d_ff_beh> in library <work>.
-
-Analyzing hierarchy for module <d_ff_beh> in library <work>.
-
-Analyzing hierarchy for module <d_ff_beh> in library <work>.
-
-Analyzing hierarchy for module <d_ff_beh> in library <work>.
-
-Analyzing hierarchy for module <d_ff_beh> in library <work>.
-
-Analyzing hierarchy for module <d_ff_beh> in library <work>.
-
-Analyzing hierarchy for module <d_ff_beh> in library <work>.
-
-Analyzing hierarchy for module <d_ff_beh> in library <work>.
-
-Analyzing hierarchy for module <d_ff_beh> in library <work>.
-
-Analyzing hierarchy for module <d_ff_beh> in library <work>.
-
-Analyzing hierarchy for module <d_ff_beh> in library <work>.
-
-Analyzing hierarchy for module <d_ff_beh> in library <work>.
-
-Analyzing hierarchy for module <d_ff_beh> in library <work>.
+Analyzing hierarchy for module <full_adder> in library <work>.
 
 Analyzing hierarchy for module <mux2_16bit> in library <work>.
-
-Analyzing hierarchy for module <full_adder> in library <work>.
-
-Analyzing hierarchy for module <full_adder> in library <work>.
-
-Analyzing hierarchy for module <full_adder> in library <work>.
-
-Analyzing hierarchy for module <full_adder> in library <work>.
-
-Analyzing hierarchy for module <full_adder> in library <work>.
-
-Analyzing hierarchy for module <full_adder> in library <work>.
-
-Analyzing hierarchy for module <full_adder> in library <work>.
-
-Analyzing hierarchy for module <full_adder> in library <work>.
-
-Analyzing hierarchy for module <full_adder> in library <work>.
-
-Analyzing hierarchy for module <full_adder> in library <work>.
-
-Analyzing hierarchy for module <full_adder> in library <work>.
-
-Analyzing hierarchy for module <full_adder> in library <work>.
-
-Analyzing hierarchy for module <full_adder> in library <work>.
-
-Analyzing hierarchy for module <full_adder> in library <work>.
-
-Analyzing hierarchy for module <full_adder> in library <work>.
-
-Analyzing hierarchy for module <full_adder> in library <work>.
-
-Analyzing hierarchy for module <full_adder> in library <work>.
-
-Analyzing hierarchy for module <full_adder> in library <work>.
-
-Analyzing hierarchy for module <full_adder> in library <work>.
-
-Analyzing hierarchy for module <full_adder> in library <work>.
-
-Analyzing hierarchy for module <full_adder> in library <work>.
-
-Analyzing hierarchy for module <full_adder> in library <work>.
-
-Analyzing hierarchy for module <full_adder> in library <work>.
-
-Analyzing hierarchy for module <full_adder> in library <work>.
-
-Analyzing hierarchy for module <full_adder> in library <work>.
-
-Analyzing hierarchy for module <full_adder> in library <work>.
-
-Analyzing hierarchy for module <full_adder> in library <work>.
-
-Analyzing hierarchy for module <full_adder> in library <work>.
-
-Analyzing hierarchy for module <full_adder> in library <work>.
-
-Analyzing hierarchy for module <full_adder> in library <work>.
-
-Analyzing hierarchy for module <full_adder> in library <work>.
-
-Analyzing hierarchy for module <full_adder> in library <work>.
-
-Analyzing hierarchy for module <mux2_1bit> in library <work>.
-
-Analyzing hierarchy for module <mux2_1bit> in library <work>.
-
-Analyzing hierarchy for module <mux2_1bit> in library <work>.
-
-Analyzing hierarchy for module <mux2_1bit> in library <work>.
-
-Analyzing hierarchy for module <mux2_1bit> in library <work>.
-
-Analyzing hierarchy for module <mux2_1bit> in library <work>.
-
-Analyzing hierarchy for module <mux2_1bit> in library <work>.
-
-Analyzing hierarchy for module <mux2_1bit> in library <work>.
-
-Analyzing hierarchy for module <mux2_1bit> in library <work>.
-
-Analyzing hierarchy for module <mux2_1bit> in library <work>.
-
-Analyzing hierarchy for module <mux2_1bit> in library <work>.
-
-Analyzing hierarchy for module <mux2_1bit> in library <work>.
-
-Analyzing hierarchy for module <mux2_1bit> in library <work>.
-
-Analyzing hierarchy for module <mux2_1bit> in library <work>.
-
-Analyzing hierarchy for module <mux2_1bit> in library <work>.
 
 Analyzing hierarchy for module <mux2_1bit> in library <work>.
 
@@ -424,8 +266,11 @@ Module <quad_debounce> is correct for synthesis.
 Analyzing module <quad_states> in library <work>.
 Module <quad_states> is correct for synthesis.
  
-Analyzing module <counter_test> in library <work>.
-Module <counter_test> is correct for synthesis.
+Analyzing module <debug_states> in library <work>.
+Module <debug_states> is correct for synthesis.
+ 
+Analyzing module <mem_states> in library <work>.
+Module <mem_states> is correct for synthesis.
  
 Analyzing module <clk_div> in library <work>.
 Module <clk_div> is correct for synthesis.
@@ -446,6 +291,7 @@ Analyzing module <full_adder> in library <work>.
 Module <full_adder> is correct for synthesis.
  
 Analyzing module <instruct_mem> in library <work>.
+WARNING:Xst:883 - "../../src/instruct_mem_v3.v" line 52: Ignored duplicate item in case statement. 
 Module <instruct_mem> is correct for synthesis.
  
 Analyzing module <control> in library <work>.
@@ -463,20 +309,12 @@ Module <mux2_1bit> is correct for synthesis.
 Analyzing module <mux2_4bit> in library <work>.
 Module <mux2_4bit> is correct for synthesis.
  
-Analyzing module <reg_file_struct> in library <work>.
-Module <reg_file_struct> is correct for synthesis.
- 
-Analyzing module <demux16_1bit> in library <work>.
-Module <demux16_1bit> is correct for synthesis.
- 
-Analyzing module <reg_16bit> in library <work>.
-Module <reg_16bit> is correct for synthesis.
- 
-Analyzing module <mux16_16bit> in library <work>.
-Module <mux16_16bit> is correct for synthesis.
- 
-Analyzing module <mux8_16bit> in library <work>.
-Module <mux8_16bit> is correct for synthesis.
+Analyzing module <reg_file_beh> in library <work>.
+WARNING:Xst:905 - "../../src/reg_file_beh_v2.v" line 22: One or more signals are missing in the sensitivity list of always block. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <r0>, <r1>, <r2>, <r3>, <r4>, <r5>, <r6>, <r7>, <r8>, <r9>, <r10>, <r11>, <r12>, <r13>, <r14>, <r15>
+WARNING:Xst:905 - "../../src/reg_file_beh_v2.v" line 103: One or more signals are missing in the sensitivity list of always block. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <r0>, <r1>, <r2>, <r3>, <r4>, <r5>, <r6>, <r7>, <r8>, <r9>, <r10>, <r11>, <r12>, <r13>, <r14>, <r15>
+Module <reg_file_beh> is correct for synthesis.
  
 Analyzing module <alu> in library <work>.
 Module <alu> is correct for synthesis.
@@ -493,17 +331,30 @@ Module <twos_comp> is correct for synthesis.
 Analyzing module <comparator> in library <work>.
 Module <comparator> is correct for synthesis.
  
+Analyzing module <mux8_16bit> in library <work>.
+Module <mux8_16bit> is correct for synthesis.
+ 
 Analyzing module <mux8_1bit> in library <work>.
 Module <mux8_1bit> is correct for synthesis.
  
-Analyzing module <reg_data_mem> in library <work>.
-Module <reg_data_mem> is correct for synthesis.
+Analyzing module <reg_data_mem_beh> in library <work>.
+WARNING:Xst:905 - "../../src/reg_data_mem_beh_v2.v" line 16: One or more signals are missing in the sensitivity list of always block. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <r0>, <r1>, <r2>, <r3>, <r4>, <r5>, <r6>, <r7>, <r8>, <r9>, <r10>, <r11>, <r12>, <r13>, <r14>, <r15>
+WARNING:Xst:905 - "../../src/reg_data_mem_beh_v2.v" line 77: One or more signals are missing in the sensitivity list of always block. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <r0>, <r1>, <r2>, <r3>, <r4>, <r5>, <r6>, <r7>, <r8>, <r9>, <r10>, <r11>, <r12>, <r13>, <r14>, <r15>
+Module <reg_data_mem_beh> is correct for synthesis.
  
-Analyzing module <lcd> in library <work>.
-Module <lcd> is correct for synthesis.
+Analyzing module <lcd_data> in library <work>.
+Module <lcd_data> is correct for synthesis.
  
 Analyzing module <lcd_decode> in library <work>.
 Module <lcd_decode> is correct for synthesis.
+ 
+Analyzing module <u_add_4bit> in library <work>.
+Module <u_add_4bit> is correct for synthesis.
+ 
+Analyzing module <lcd> in library <work>.
+Module <lcd> is correct for synthesis.
  
 
 =========================================================================
@@ -564,12 +415,24 @@ Synthesizing Unit <quad_states>.
 Unit <quad_states> synthesized.
 
 
-Synthesizing Unit <counter_test>.
-    Related source file is "../../src/counter_test.v".
-    Found 8-bit register for signal <display>.
+Synthesizing Unit <debug_states>.
+    Related source file is "../../src/debug_states.v".
+    Found 2-bit register for signal <d_state>.
+    Found 2-bit 4-to-1 multiplexer for signal <d_state$mux0000> created at line 10.
     Summary:
-	inferred   8 D-type flip-flop(s).
-Unit <counter_test> synthesized.
+	inferred   2 D-type flip-flop(s).
+	inferred   2 Multiplexer(s).
+Unit <debug_states> synthesized.
+
+
+Synthesizing Unit <mem_states>.
+    Related source file is "../../src/mem_states.v".
+    Found 4-bit register for signal <m_state>.
+    Found 4-bit 16-to-1 multiplexer for signal <m_state$mux0000> created at line 10.
+    Summary:
+	inferred   4 D-type flip-flop(s).
+	inferred   4 Multiplexer(s).
+Unit <mem_states> synthesized.
 
 
 Synthesizing Unit <clk_div>.
@@ -600,8 +463,9 @@ Unit <clk_5K> synthesized.
 
 Synthesizing Unit <instruct_mem>.
     Related source file is "../../src/instruct_mem_v3.v".
-WARNING:Xst:737 - Found 16-bit latch for signal <INSTR>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+    Found 64x16-bit ROM for signal <INSTR$mux0000>.
+    Summary:
+	inferred   1 ROM(s).
 Unit <instruct_mem> synthesized.
 
 
@@ -613,6 +477,94 @@ Unit <control> synthesized.
 Synthesizing Unit <sign_extend>.
     Related source file is "../../src/sign_extend_v2.v".
 Unit <sign_extend> synthesized.
+
+
+Synthesizing Unit <reg_file_beh>.
+    Related source file is "../../src/reg_file_beh_v2.v".
+WARNING:Xst:737 - Found 16-bit latch for signal <r0>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 16-bit latch for signal <r1>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 16-bit latch for signal <r2>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 16-bit latch for signal <r3>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 16-bit latch for signal <r4>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 16-bit latch for signal <r5>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 16-bit latch for signal <r6>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 16-bit latch for signal <r7>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 16-bit latch for signal <r8>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 16-bit latch for signal <r9>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 16-bit latch for signal <r10>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 16-bit latch for signal <r11>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 16-bit latch for signal <r12>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 16-bit latch for signal <r13>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 16-bit latch for signal <r14>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 16-bit latch for signal <r15>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 32-bit 16-to-1 multiplexer for signal <m_data>.
+    Summary:
+	inferred  32 Multiplexer(s).
+Unit <reg_file_beh> synthesized.
+
+
+Synthesizing Unit <reg_data_mem_beh>.
+    Related source file is "../../src/reg_data_mem_beh_v2.v".
+WARNING:Xst:647 - Input <MemRead> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:737 - Found 16-bit latch for signal <r0>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 16-bit latch for signal <r1>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 16-bit latch for signal <r2>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 16-bit latch for signal <r3>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 16-bit latch for signal <r4>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 16-bit latch for signal <r5>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 16-bit latch for signal <r6>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 16-bit latch for signal <r7>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 16-bit latch for signal <r8>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 16-bit latch for signal <r9>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 16-bit latch for signal <r10>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 16-bit latch for signal <r11>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 16-bit latch for signal <r12>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 16-bit latch for signal <r13>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 16-bit latch for signal <r14>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 16-bit latch for signal <r15>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 32-bit 16-to-1 multiplexer for signal <m_data>.
+    Summary:
+	inferred  32 Multiplexer(s).
+Unit <reg_data_mem_beh> synthesized.
+
+
+Synthesizing Unit <lcd>.
+    Related source file is "../../src/lcd_v4.v".
+    Found finite state machine <FSM_1> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 19                                             |
+    | Transitions        | 153                                            |
+    | Inputs             | 13                                             |
+    | Outputs            | 19                                             |
+    | Clock              | clk                       (rising_edge)        |
+    | Power Up State     | 00000                                          |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found finite state machine <FSM_2> for signal <stage>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 10                                             |
+    | Inputs             | 4                                              |
+    | Outputs            | 4                                              |
+    | Clock              | clk                       (rising_edge)        |
+    | Power Up State     | 000                                            |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 3-bit register for signal <control>.
+    Found 4-bit register for signal <dataout>.
+    Found 5-bit register for signal <sel>.
+    Found 21-bit register for signal <delay>.
+    Found 21-bit subtractor for signal <delay$share0000> created at line 28.
+    Found 8-bit register for signal <DR>.
+    Found 8-bit register for signal <MUX>.
+    Found 5-bit adder for signal <sel$share0000> created at line 28.
+    Summary:
+	inferred   2 Finite State Machine(s).
+	inferred  49 D-type flip-flop(s).
+	inferred   2 Adder/Subtractor(s).
+Unit <lcd> synthesized.
 
 
 Synthesizing Unit <d_ff_beh>.
@@ -633,11 +585,6 @@ Unit <full_adder> synthesized.
 Synthesizing Unit <mux2_1bit>.
     Related source file is "../../src/mux2_1bit_v2.v".
 Unit <mux2_1bit> synthesized.
-
-
-Synthesizing Unit <demux16_1bit>.
-    Related source file is "../../src/demux16_1bit.v".
-Unit <demux16_1bit> synthesized.
 
 
 Synthesizing Unit <and_16bit>.
@@ -683,50 +630,6 @@ Synthesizing Unit <mux2_4bit>.
 Unit <mux2_4bit> synthesized.
 
 
-Synthesizing Unit <lcd>.
-    Related source file is "../../src/lcd_v3.v".
-    Found finite state machine <FSM_1> for signal <state>.
-    -----------------------------------------------------------------------
-    | States             | 19                                             |
-    | Transitions        | 153                                            |
-    | Inputs             | 13                                             |
-    | Outputs            | 19                                             |
-    | Clock              | clk                       (rising_edge)        |
-    | Power Up State     | 00000                                          |
-    | Encoding           | automatic                                      |
-    | Implementation     | LUT                                            |
-    -----------------------------------------------------------------------
-    Found finite state machine <FSM_2> for signal <stage>.
-    -----------------------------------------------------------------------
-    | States             | 4                                              |
-    | Transitions        | 10                                             |
-    | Inputs             | 4                                              |
-    | Outputs            | 4                                              |
-    | Clock              | clk                       (rising_edge)        |
-    | Power Up State     | 000                                            |
-    | Encoding           | automatic                                      |
-    | Implementation     | LUT                                            |
-    -----------------------------------------------------------------------
-    Found 3-bit register for signal <control>.
-    Found 4-bit register for signal <dataout>.
-    Found 21-bit register for signal <delay>.
-    Found 21-bit subtractor for signal <delay$share0000> created at line 42.
-    Found 8-bit register for signal <DR>.
-    Found 8-bit register for signal <MUX>.
-    Found 5-bit register for signal <sel>.
-    Found 5-bit adder for signal <sel$share0000> created at line 42.
-    Summary:
-	inferred   2 Finite State Machine(s).
-	inferred  49 D-type flip-flop(s).
-	inferred   2 Adder/Subtractor(s).
-Unit <lcd> synthesized.
-
-
-Synthesizing Unit <reg_16bit>.
-    Related source file is "../../src/reg_16bit.v".
-Unit <reg_16bit> synthesized.
-
-
 Synthesizing Unit <twos_comp>.
     Related source file is "../../src/twos_comp_v2.v".
     Found 1-bit xor2 for signal <Cout>.
@@ -742,6 +645,24 @@ Synthesizing Unit <mux8_1bit>.
 Unit <mux8_1bit> synthesized.
 
 
+Synthesizing Unit <u_add_4bit>.
+    Related source file is "../../src/unsigned_add_4bit.v".
+Unit <u_add_4bit> synthesized.
+
+
+Synthesizing Unit <lcd_data>.
+    Related source file is "../../src/lcd_data.v".
+    Found 8x8-bit ROM for signal <data$mux0002> created at line 350.
+    Found 8-bit register for signal <data>.
+    Found 8-bit 4-to-1 multiplexer for signal <data$mux0000> created at line 59.
+    Found 8-bit 16-to-1 multiplexer for signal <data$mux0001> created at line 281.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   8 D-type flip-flop(s).
+	inferred  16 Multiplexer(s).
+Unit <lcd_data> synthesized.
+
+
 Synthesizing Unit <mux8_16bit>.
     Related source file is "../../src/mux8_16bit.v".
 Unit <mux8_16bit> synthesized.
@@ -752,25 +673,9 @@ Synthesizing Unit <alu>.
 Unit <alu> synthesized.
 
 
-Synthesizing Unit <mux16_16bit>.
-    Related source file is "../../src/mux16_16bit_v3.v".
-Unit <mux16_16bit> synthesized.
-
-
-Synthesizing Unit <reg_file_struct>.
-    Related source file is "../../src/reg_file_struct_v2.v".
-Unit <reg_file_struct> synthesized.
-
-
-Synthesizing Unit <reg_data_mem>.
-    Related source file is "../../src/reg_data_mem.v".
-WARNING:Xst:647 - Input <addr<15:4>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-Unit <reg_data_mem> synthesized.
-
-
 Synthesizing Unit <mcu_single_cycle_lcd>.
     Related source file is "../../src/mcu_single_cycle_lcd.v".
-WARNING:Xst:646 - Signal <clk5K> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1306 - Output <display> is never assigned.
 WARNING:Xst:646 - Signal <V> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:646 - Signal <L> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:646 - Signal <G> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
@@ -779,33 +684,42 @@ WARNING:Xst:653 - Signal <Cin> is used but never assigned. This sourceless signa
 Unit <mcu_single_cycle_lcd> synthesized.
 
 INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
-WARNING:Xst:524 - All outputs of the instance <CLK_5K> of the block <clk_5K> are unconnected in block <mcu_single_cycle_lcd>.
-   This instance will be removed from the design along with all underlying logic
 
 =========================================================================
 HDL Synthesis Report
 
 Macro Statistics
-# ROMs                                                 : 7
- 16x8-bit ROM                                          : 7
+# ROMs                                                 : 27
+ 16x8-bit ROM                                          : 25
+ 64x16-bit ROM                                         : 1
+ 8x8-bit ROM                                           : 1
 # Adders/Subtractors                                   : 2
  21-bit subtractor                                     : 1
  5-bit adder                                           : 1
-# Counters                                             : 1
+# Counters                                             : 2
+ 14-bit up counter                                     : 1
  26-bit up counter                                     : 1
-# Registers                                            : 548
- 1-bit register                                        : 538
+# Registers                                            : 39
+ 1-bit register                                        : 27
+ 2-bit register                                        : 1
  21-bit register                                       : 1
  3-bit register                                        : 1
- 4-bit register                                        : 1
+ 4-bit register                                        : 2
  5-bit register                                        : 1
  8-bit register                                        : 6
-# Latches                                              : 1
- 16-bit latch                                          : 1
-# Comparators                                          : 2
+# Latches                                              : 32
+ 16-bit latch                                          : 32
+# Comparators                                          : 4
+ 14-bit comparator less                                : 2
  26-bit comparator less                                : 2
-# Xors                                                 : 196
- 1-bit xor2                                            : 194
+# Multiplexers                                         : 6
+ 2-bit 4-to-1 multiplexer                              : 1
+ 32-bit 16-to-1 multiplexer                            : 2
+ 4-bit 16-to-1 multiplexer                             : 1
+ 8-bit 16-to-1 multiplexer                             : 1
+ 8-bit 4-to-1 multiplexer                              : 1
+# Xors                                                 : 204
+ 1-bit xor2                                            : 202
  1-bit xor3                                            : 2
 
 =========================================================================
@@ -865,89 +779,12 @@ WARNING:Xst:1290 - Hierarchical block <MUX3> is unconnected in block <ALU>.
    It will be removed from the design.
 WARNING:Xst:1290 - Hierarchical block <mux16_4> is unconnected in block <MUX1>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <DMem> is unconnected in block <mcu_single_cycle_lcd>.
-   It will be removed from the design.
-WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <1>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <2>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <3>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <6>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <7>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <9>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <10>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <11>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <MUX_5> (without init value) has a constant value of 0 in block <LCD>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <MUX_6> (without init value) has a constant value of 0 in block <LCD>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <MUX_7> (without init value) has a constant value of 0 in block <LCD>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:2677 - Node <sbuf_7> of sequential type is unconnected in block <BTN_DBNC>.
 WARNING:Xst:2677 - Node <sbuf_7> of sequential type is unconnected in block <A_DBNC>.
 WARNING:Xst:2677 - Node <sbuf_7> of sequential type is unconnected in block <B_DBNC>.
-WARNING:Xst:1290 - Hierarchical block <MUX2_[3]> is unconnected in block <MUX_REG>.
-   It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <MUX2_[2]> is unconnected in block <MUX_REG>.
-   It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <MUX_LOAD5> is unconnected in block <REG>.
-   It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <MUX_LOAD6> is unconnected in block <REG>.
-   It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <MUX_LOAD7> is unconnected in block <REG>.
-   It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <MUX_LOAD8> is unconnected in block <REG>.
-   It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <MUX_LOAD9> is unconnected in block <REG>.
-   It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <MUX_LOAD10> is unconnected in block <REG>.
-   It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <MUX_LOAD11> is unconnected in block <REG>.
-   It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <MUX_LOAD12> is unconnected in block <REG>.
-   It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <MUX_LOAD13> is unconnected in block <REG>.
-   It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <MUX_LOAD14> is unconnected in block <REG>.
-   It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <MUX_LOAD15> is unconnected in block <REG>.
-   It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <MUX_LOAD16> is unconnected in block <REG>.
-   It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <REG5> is unconnected in block <REG>.
-   It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <REG6> is unconnected in block <REG>.
-   It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <REG7> is unconnected in block <REG>.
-   It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <REG8> is unconnected in block <REG>.
-   It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <REG9> is unconnected in block <REG>.
-   It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <REG10> is unconnected in block <REG>.
-   It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <REG11> is unconnected in block <REG>.
-   It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <REG12> is unconnected in block <REG>.
-   It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <REG13> is unconnected in block <REG>.
-   It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <REG14> is unconnected in block <REG>.
-   It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <REG15> is unconnected in block <REG>.
-   It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <REG16> is unconnected in block <REG>.
-   It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <mux16_2> is unconnected in block <MUX1>.
-   It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <mux16_3> is unconnected in block <MUX1>.
-   It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <mux16_4> is unconnected in block <MUX1>.
-   It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <mux16_6> is unconnected in block <MUX1>.
-   It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <MUX2> is unconnected in block <MUXA>.
-   It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <mux16_3> is unconnected in block <MUX1>.
-   It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <mux16_4> is unconnected in block <MUX1>.
-   It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <mux16_6> is unconnected in block <MUX1>.
-   It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <MUX2> is unconnected in block <MUXB>.
-   It will be removed from the design.
 WARNING:Xst:2677 - Node <sbuf_7> of sequential type is unconnected in block <debounce>.
 WARNING:Xst:2677 - Node <sbuf_7> of sequential type is unconnected in block <quad_debounce>.
 
@@ -956,21 +793,31 @@ Advanced HDL Synthesis Report
 
 Macro Statistics
 # FSMs                                                 : 3
-# ROMs                                                 : 7
- 16x8-bit ROM                                          : 7
+# ROMs                                                 : 27
+ 16x8-bit ROM                                          : 25
+ 64x16-bit ROM                                         : 1
+ 8x8-bit ROM                                           : 1
 # Adders/Subtractors                                   : 2
  21-bit subtractor                                     : 1
  5-bit adder                                           : 1
-# Counters                                             : 1
+# Counters                                             : 2
+ 14-bit up counter                                     : 1
  26-bit up counter                                     : 1
-# Registers                                            : 616
- Flip-Flops                                            : 616
-# Latches                                              : 1
- 16-bit latch                                          : 1
-# Comparators                                          : 2
+# Registers                                            : 111
+ Flip-Flops                                            : 111
+# Latches                                              : 32
+ 16-bit latch                                          : 32
+# Comparators                                          : 4
+ 14-bit comparator less                                : 2
  26-bit comparator less                                : 2
-# Xors                                                 : 196
- 1-bit xor2                                            : 194
+# Multiplexers                                         : 6
+ 2-bit 4-to-1 multiplexer                              : 1
+ 32-bit 16-to-1 multiplexer                            : 2
+ 4-bit 16-to-1 multiplexer                             : 1
+ 8-bit 16-to-1 multiplexer                             : 1
+ 8-bit 4-to-1 multiplexer                              : 1
+# Xors                                                 : 204
+ 1-bit xor2                                            : 202
  1-bit xor3                                            : 2
 
 =========================================================================
@@ -978,41 +825,10 @@ Macro Statistics
 =========================================================================
 *                         Low Level Synthesis                           *
 =========================================================================
-INFO:Xst:2261 - The FF/Latch <11> in Unit <LPM_LATCH_1> is equivalent to the following 7 FFs/Latches, which will be removed : <10> <9> <7> <6> <3> <2> <1> 
-INFO:Xst:2261 - The FF/Latch <8> in Unit <LPM_LATCH_1> is equivalent to the following FF/Latch, which will be removed : <5> 
-WARNING:Xst:1710 - FF/Latch <11> (without init value) has a constant value of 0 in block <LPM_LATCH_1>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1899 - Due to constant pushing, all outputs of the instance <MUX_OUT/MUX1/mux16_1> of the block <mux2_16bit> are unconnected in block <reg_data_mem>.
-   This instance will be removed from the design along with all underlying logic
-WARNING:Xst:1899 - Due to constant pushing, all outputs of the instance <MUX_OUT/MUX1/mux16_2> of the block <mux2_16bit> are unconnected in block <reg_data_mem>.
-   This instance will be removed from the design along with all underlying logic
-WARNING:Xst:1899 - Due to constant pushing, all outputs of the instance <MUX_OUT/MUX1/mux16_5> of the block <mux2_16bit> are unconnected in block <reg_data_mem>.
-   This instance will be removed from the design along with all underlying logic
-WARNING:Xst:1899 - Due to constant pushing, all outputs of the instance <MUX_OUT/MUX1/mux16_3> of the block <mux2_16bit> are unconnected in block <reg_data_mem>.
-   This instance will be removed from the design along with all underlying logic
-WARNING:Xst:1899 - Due to constant pushing, all outputs of the instance <MUX_OUT/MUX1/mux16_4> of the block <mux2_16bit> are unconnected in block <reg_data_mem>.
-   This instance will be removed from the design along with all underlying logic
-WARNING:Xst:1899 - Due to constant pushing, all outputs of the instance <MUX_OUT/MUX1/mux16_6> of the block <mux2_16bit> are unconnected in block <reg_data_mem>.
-   This instance will be removed from the design along with all underlying logic
-WARNING:Xst:1899 - Due to constant pushing, all outputs of the instance <MUX_OUT/MUX1/mux16_7> of the block <mux2_16bit> are unconnected in block <reg_data_mem>.
-   This instance will be removed from the design along with all underlying logic
-WARNING:Xst:1899 - Due to constant pushing, all outputs of the instance <MUX_OUT/MUX2/mux16_1> of the block <mux2_16bit> are unconnected in block <reg_data_mem>.
-   This instance will be removed from the design along with all underlying logic
-WARNING:Xst:1899 - Due to constant pushing, all outputs of the instance <MUX_OUT/MUX2/mux16_2> of the block <mux2_16bit> are unconnected in block <reg_data_mem>.
-   This instance will be removed from the design along with all underlying logic
-WARNING:Xst:1899 - Due to constant pushing, all outputs of the instance <MUX_OUT/MUX2/mux16_5> of the block <mux2_16bit> are unconnected in block <reg_data_mem>.
-   This instance will be removed from the design along with all underlying logic
-WARNING:Xst:1899 - Due to constant pushing, all outputs of the instance <MUX_OUT/MUX2/mux16_3> of the block <mux2_16bit> are unconnected in block <reg_data_mem>.
-   This instance will be removed from the design along with all underlying logic
-WARNING:Xst:1899 - Due to constant pushing, all outputs of the instance <MUX_OUT/MUX2/mux16_4> of the block <mux2_16bit> are unconnected in block <reg_data_mem>.
-   This instance will be removed from the design along with all underlying logic
-WARNING:Xst:1899 - Due to constant pushing, all outputs of the instance <MUX_OUT/MUX2/mux16_6> of the block <mux2_16bit> are unconnected in block <reg_data_mem>.
-   This instance will be removed from the design along with all underlying logic
-WARNING:Xst:1899 - Due to constant pushing, all outputs of the instance <MUX_OUT/MUX2/mux16_7> of the block <mux2_16bit> are unconnected in block <reg_data_mem>.
-   This instance will be removed from the design along with all underlying logic
-WARNING:Xst:1899 - Due to constant pushing, all outputs of the instance <MUX_OUT/MUX3> of the block <mux2_16bit> are unconnected in block <reg_data_mem>.
-   This instance will be removed from the design along with all underlying logic
-WARNING:Xst:1710 - FF/Latch <MUX_7> (without init value) has a constant value of 0 in block <lcd>. This FF/Latch will be trimmed during the optimization process.
-INFO:Xst:2261 - The FF/Latch <INSTR_14> in Unit <instruct_mem> is equivalent to the following FF/Latch, which will be removed : <INSTR_15> 
+WARNING:Xst:1710 - FF/Latch <MUX_5> (without init value) has a constant value of 0 in block <lcd>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <MUX_6> (without init value) has a constant value of 0 in block <lcd>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <MUX_7> (without init value) has a constant value of 0 in block <lcd>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <data_7> (without init value) has a constant value of 0 in block <lcd_data>. This FF/Latch will be trimmed during the optimization process.
 
 Optimizing unit <mcu_single_cycle_lcd> ...
 
@@ -1022,478 +838,32 @@ Optimizing unit <quad_debounce> ...
 
 Optimizing unit <quad_states> ...
 
-Optimizing unit <counter_test> ...
+Optimizing unit <mem_states> ...
 
 Optimizing unit <instruct_mem> ...
-INFO:Xst:2261 - The FF/Latch <INSTR_0> in Unit <instruct_mem> is equivalent to the following FF/Latch, which will be removed : <INSTR_13> 
-
-Optimizing unit <prog_count> ...
-
-Optimizing unit <unsigned_add> ...
 
 Optimizing unit <lcd> ...
 WARNING:Xst:1710 - FF/Latch <control_0> (without init value) has a constant value of 0 in block <lcd>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <control_0> (without init value) has a constant value of 0 in block <lcd>. This FF/Latch will be trimmed during the optimization process.
 
-Optimizing unit <reg_16bit> ...
+Optimizing unit <reg_file_beh> ...
+
+Optimizing unit <reg_data_mem_beh> ...
+
+Optimizing unit <prog_count> ...
+
+Optimizing unit <unsigned_add> ...
+
+Optimizing unit <lcd_data> ...
 
 Optimizing unit <alu> ...
 
-Optimizing unit <reg_file_struct> ...
-
-Optimizing unit <reg_data_mem> ...
-WARNING:Xst:1710 - FF/Latch <REG/REG12/dff_[8]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG12/dff_[9]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG12/dff_[10]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG12/dff_[11]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG12/dff_[12]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG12/dff_[13]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG12/dff_[14]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG12/dff_[15]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG13/dff_[0]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG13/dff_[1]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG13/dff_[2]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG13/dff_[3]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG13/dff_[4]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG13/dff_[5]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG13/dff_[6]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG13/dff_[7]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG13/dff_[8]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG13/dff_[9]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG13/dff_[10]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG13/dff_[11]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG13/dff_[12]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG13/dff_[13]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG13/dff_[14]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG13/dff_[15]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG11/dff_[0]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG11/dff_[1]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG11/dff_[2]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG11/dff_[3]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG11/dff_[4]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG11/dff_[5]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG11/dff_[6]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG11/dff_[7]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG11/dff_[8]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG11/dff_[9]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG11/dff_[10]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG11/dff_[11]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG11/dff_[12]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG11/dff_[13]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG11/dff_[14]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG11/dff_[15]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG12/dff_[0]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG12/dff_[1]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG12/dff_[2]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG12/dff_[3]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG12/dff_[4]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG12/dff_[5]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG12/dff_[6]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG12/dff_[7]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG15/dff_[8]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG15/dff_[9]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG15/dff_[10]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG15/dff_[11]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG15/dff_[12]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG15/dff_[13]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG15/dff_[14]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG15/dff_[15]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG16/dff_[0]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG16/dff_[1]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG16/dff_[2]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG16/dff_[3]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG16/dff_[4]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG16/dff_[5]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG16/dff_[6]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG16/dff_[7]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG16/dff_[8]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG16/dff_[9]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG16/dff_[10]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG16/dff_[11]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG16/dff_[12]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG16/dff_[13]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG16/dff_[14]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG16/dff_[15]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG14/dff_[0]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG14/dff_[1]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG14/dff_[2]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG14/dff_[3]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG14/dff_[4]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG14/dff_[5]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG14/dff_[6]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG14/dff_[7]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG14/dff_[8]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG14/dff_[9]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG14/dff_[10]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG14/dff_[11]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG14/dff_[12]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG14/dff_[13]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG14/dff_[14]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG14/dff_[15]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG15/dff_[0]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG15/dff_[1]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG15/dff_[2]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG15/dff_[3]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG15/dff_[4]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG15/dff_[5]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG15/dff_[6]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG15/dff_[7]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG6/dff_[8]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG6/dff_[9]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG6/dff_[10]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG6/dff_[11]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG6/dff_[12]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG6/dff_[13]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG6/dff_[14]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG6/dff_[15]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG7/dff_[0]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG7/dff_[1]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG7/dff_[2]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG7/dff_[3]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG7/dff_[4]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG7/dff_[5]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG7/dff_[6]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG7/dff_[7]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG7/dff_[8]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG7/dff_[9]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG7/dff_[10]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG7/dff_[11]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG7/dff_[12]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG7/dff_[13]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG7/dff_[14]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG7/dff_[15]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG5/dff_[0]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG5/dff_[1]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG5/dff_[2]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG5/dff_[3]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG5/dff_[4]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG5/dff_[5]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG5/dff_[6]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG5/dff_[7]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG5/dff_[8]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG5/dff_[9]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG5/dff_[10]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG5/dff_[11]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG5/dff_[12]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG5/dff_[13]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG5/dff_[14]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG5/dff_[15]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG6/dff_[0]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG6/dff_[1]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG6/dff_[2]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG6/dff_[3]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG6/dff_[4]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG6/dff_[5]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG6/dff_[6]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG6/dff_[7]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG9/dff_[8]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG9/dff_[9]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG9/dff_[10]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG9/dff_[11]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG9/dff_[12]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG9/dff_[13]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG9/dff_[14]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG9/dff_[15]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG10/dff_[0]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG10/dff_[1]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG10/dff_[2]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG10/dff_[3]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG10/dff_[4]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG10/dff_[5]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG10/dff_[6]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG10/dff_[7]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG10/dff_[8]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG10/dff_[9]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG10/dff_[10]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG10/dff_[11]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG10/dff_[12]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG10/dff_[13]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG10/dff_[14]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG10/dff_[15]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG8/dff_[0]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG8/dff_[1]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG8/dff_[2]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG8/dff_[3]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG8/dff_[4]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG8/dff_[5]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG8/dff_[6]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG8/dff_[7]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG8/dff_[8]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG8/dff_[9]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG8/dff_[10]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG8/dff_[11]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG8/dff_[12]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG8/dff_[13]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG8/dff_[14]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG8/dff_[15]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG9/dff_[0]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG9/dff_[1]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG9/dff_[2]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG9/dff_[3]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG9/dff_[4]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG9/dff_[5]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG9/dff_[6]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <REG/REG9/dff_[7]/Q> (without init value) has a constant value of 0 in block <mcu_single_cycle_lcd>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:2677 - Node <DMem/DREG1/dff_[0]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG1/dff_[1]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG1/dff_[2]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG1/dff_[3]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG1/dff_[4]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG1/dff_[5]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG1/dff_[6]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG1/dff_[7]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG1/dff_[8]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG1/dff_[9]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG1/dff_[10]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG1/dff_[11]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG1/dff_[12]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG1/dff_[13]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG1/dff_[14]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG1/dff_[15]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG2/dff_[0]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG2/dff_[1]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG2/dff_[2]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG2/dff_[3]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG2/dff_[4]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG2/dff_[5]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG2/dff_[6]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG2/dff_[7]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG2/dff_[8]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG2/dff_[9]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG2/dff_[10]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG2/dff_[11]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG2/dff_[12]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG2/dff_[13]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG2/dff_[14]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG2/dff_[15]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG3/dff_[0]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG3/dff_[1]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG3/dff_[2]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG3/dff_[3]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG3/dff_[4]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG3/dff_[5]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG3/dff_[6]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG3/dff_[7]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG3/dff_[8]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG3/dff_[9]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG3/dff_[10]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG3/dff_[11]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG3/dff_[12]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG3/dff_[13]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG3/dff_[14]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG3/dff_[15]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG4/dff_[0]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG4/dff_[1]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG4/dff_[2]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG4/dff_[3]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG4/dff_[4]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG4/dff_[5]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG4/dff_[6]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG4/dff_[7]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG4/dff_[8]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG4/dff_[9]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG4/dff_[10]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG4/dff_[11]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG4/dff_[12]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG4/dff_[13]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG4/dff_[14]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG4/dff_[15]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG5/dff_[0]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG5/dff_[1]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG5/dff_[2]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG5/dff_[3]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG5/dff_[4]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG5/dff_[5]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG5/dff_[6]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG5/dff_[7]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG5/dff_[8]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG5/dff_[9]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG5/dff_[10]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG5/dff_[11]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG5/dff_[12]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG5/dff_[13]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG5/dff_[14]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG5/dff_[15]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG6/dff_[0]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG6/dff_[1]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG6/dff_[2]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG6/dff_[3]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG6/dff_[4]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG6/dff_[5]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG6/dff_[6]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG6/dff_[7]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG6/dff_[8]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG6/dff_[9]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG6/dff_[10]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG6/dff_[11]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG6/dff_[12]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG6/dff_[13]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG6/dff_[14]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG6/dff_[15]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG7/dff_[0]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG7/dff_[1]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG7/dff_[2]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG7/dff_[3]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG7/dff_[4]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG7/dff_[5]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG7/dff_[6]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG7/dff_[7]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG7/dff_[8]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG7/dff_[9]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG7/dff_[10]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG7/dff_[11]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG7/dff_[12]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG7/dff_[13]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG7/dff_[14]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG7/dff_[15]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG8/dff_[0]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG8/dff_[1]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG8/dff_[2]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG8/dff_[3]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG8/dff_[4]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG8/dff_[5]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG8/dff_[6]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG8/dff_[7]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG8/dff_[8]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG8/dff_[9]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG8/dff_[10]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG8/dff_[11]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG8/dff_[12]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG8/dff_[13]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG8/dff_[14]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG8/dff_[15]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG9/dff_[0]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG9/dff_[1]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG9/dff_[2]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG9/dff_[3]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG9/dff_[4]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG9/dff_[5]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG9/dff_[6]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG9/dff_[7]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG9/dff_[8]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG9/dff_[9]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG9/dff_[10]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG9/dff_[11]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG9/dff_[12]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG9/dff_[13]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG9/dff_[14]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG9/dff_[15]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG10/dff_[0]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG10/dff_[1]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG10/dff_[2]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG10/dff_[3]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG10/dff_[4]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG10/dff_[5]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG10/dff_[6]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG10/dff_[7]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG10/dff_[8]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG10/dff_[9]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG10/dff_[10]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG10/dff_[11]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG10/dff_[12]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG10/dff_[13]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG10/dff_[14]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG10/dff_[15]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG11/dff_[0]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG11/dff_[1]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG11/dff_[2]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG11/dff_[3]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG11/dff_[4]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG11/dff_[5]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG11/dff_[6]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG11/dff_[7]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG11/dff_[8]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG11/dff_[9]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG11/dff_[10]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG11/dff_[11]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG11/dff_[12]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG11/dff_[13]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG11/dff_[14]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG11/dff_[15]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG12/dff_[0]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG12/dff_[1]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG12/dff_[2]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG12/dff_[3]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG12/dff_[4]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG12/dff_[5]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG12/dff_[6]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG12/dff_[7]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG12/dff_[8]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG12/dff_[9]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG12/dff_[10]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG12/dff_[11]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG12/dff_[12]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG12/dff_[13]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG12/dff_[14]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG12/dff_[15]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG13/dff_[0]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG13/dff_[1]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG13/dff_[2]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG13/dff_[3]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG13/dff_[4]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG13/dff_[5]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG13/dff_[6]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG13/dff_[7]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG13/dff_[8]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG13/dff_[9]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG13/dff_[10]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG13/dff_[11]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG13/dff_[12]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG13/dff_[13]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG13/dff_[14]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG13/dff_[15]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG14/dff_[0]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG14/dff_[1]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG14/dff_[2]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG14/dff_[3]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG14/dff_[4]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG14/dff_[5]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG14/dff_[6]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG14/dff_[7]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG14/dff_[8]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG14/dff_[9]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG14/dff_[10]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG14/dff_[11]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG14/dff_[12]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG14/dff_[13]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG14/dff_[14]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG14/dff_[15]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG15/dff_[0]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG15/dff_[1]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG15/dff_[2]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG15/dff_[3]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG15/dff_[4]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG15/dff_[5]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG15/dff_[6]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG15/dff_[7]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG15/dff_[8]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG15/dff_[9]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG15/dff_[10]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG15/dff_[11]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG15/dff_[12]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG15/dff_[13]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG15/dff_[14]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG15/dff_[15]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG16/dff_[0]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG16/dff_[1]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG16/dff_[2]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG16/dff_[3]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG16/dff_[4]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG16/dff_[5]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG16/dff_[6]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG16/dff_[7]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG16/dff_[8]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG16/dff_[9]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG16/dff_[10]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG16/dff_[11]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG16/dff_[12]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG16/dff_[13]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG16/dff_[14]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-WARNING:Xst:2677 - Node <DMem/DREG16/dff_[15]/Q> of sequential type is unconnected in block <mcu_single_cycle_lcd>.
-
 Mapping all equations...
 Building and optimizing final netlist ...
-Found area constraint ratio of 100 (+ 5) on block mcu_single_cycle_lcd, actual ratio is 11.
+Found area constraint ratio of 100 (+ 5) on block mcu_single_cycle_lcd, actual ratio is 26.
+FlipFlop PCount/DFF[0]/Q has been replicated 1 time(s)
+FlipFlop PCount/DFF[1]/Q has been replicated 1 time(s)
+FlipFlop PCount/DFF[2]/Q has been replicated 1 time(s)
 
 Final Macro Processing ...
 
@@ -1501,8 +871,8 @@ Final Macro Processing ...
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 215
- Flip-Flops                                            : 215
+# Registers                                            : 172
+ Flip-Flops                                            : 172
 
 =========================================================================
 
@@ -1531,39 +901,39 @@ Design Statistics
 # IOs                              : 21
 
 Cell Usage :
-# BELS                             : 1111
+# BELS                             : 3566
 #      GND                         : 1
-#      INV                         : 31
-#      LUT1                        : 35
-#      LUT2                        : 35
-#      LUT2_D                      : 12
-#      LUT2_L                      : 1
-#      LUT3                        : 147
-#      LUT3_D                      : 30
-#      LUT3_L                      : 7
-#      LUT4                        : 513
-#      LUT4_D                      : 44
-#      LUT4_L                      : 45
-#      MUXCY                       : 75
-#      MUXF5                       : 87
+#      INV                         : 29
+#      LUT1                        : 52
+#      LUT2                        : 75
+#      LUT2_D                      : 3
+#      LUT2_L                      : 12
+#      LUT3                        : 962
+#      LUT3_D                      : 42
+#      LUT3_L                      : 35
+#      LUT4                        : 1276
+#      LUT4_D                      : 81
+#      LUT4_L                      : 120
+#      MUXCY                       : 99
+#      MUXF5                       : 504
+#      MUXF6                       : 149
+#      MUXF7                       : 64
 #      VCC                         : 1
-#      XORCY                       : 47
-# FlipFlops/Latches                : 220
-#      FD                          : 43
-#      FDC                         : 16
-#      FDCE                        : 64
-#      FDE                         : 7
-#      FDR                         : 5
-#      FDRE                        : 35
-#      FDS                         : 44
-#      FDSE                        : 1
-#      LD                          : 5
-# Clock Buffers                    : 2
-#      BUFG                        : 1
+#      XORCY                       : 61
+# FlipFlops/Latches                : 684
+#      FD                          : 55
+#      FDC                         : 19
+#      FDE                         : 13
+#      FDR                         : 20
+#      FDRE                        : 29
+#      FDS                         : 36
+#      LDCE                        : 512
+# Clock Buffers                    : 4
+#      BUFG                        : 3
 #      BUFGP                       : 1
-# IO Buffers                       : 20
+# IO Buffers                       : 12
 #      IBUF                        : 5
-#      OBUF                        : 15
+#      OBUF                        : 7
 =========================================================================
 
 Device utilization summary:
@@ -1571,12 +941,12 @@ Device utilization summary:
 
 Selected Device : 3s500efg320-4 
 
- Number of Slices:                      492  out of   4656    10%  
- Number of Slice Flip Flops:            220  out of   9312     2%  
- Number of 4 input LUTs:                900  out of   9312     9%  
+ Number of Slices:                     1411  out of   4656    30%  
+ Number of Slice Flip Flops:            684  out of   9312     7%  
+ Number of 4 input LUTs:               2687  out of   9312    28%  
  Number of IOs:                          21
- Number of bonded IOBs:                  21  out of    232     9%  
- Number of GCLKs:                         2  out of     24     8%  
+ Number of bonded IOBs:                  13  out of    232     5%  
+ Number of GCLKs:                         4  out of     24    16%  
 
 ---------------------------
 Partition Resource Summary:
@@ -1596,34 +966,35 @@ NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
 
 Clock Information:
 ------------------
--------------------------------------+------------------------+-------+
-Clock Signal                         | Clock buffer(FF name)  | Load  |
--------------------------------------+------------------------+-------+
-clk_in                               | BUFGP                  | 135   |
-IM/INSTR_not0001(IM/INSTR_not00011:O)| NONE(*)(IM/INSTR_14)   | 5     |
-CLKDIV/clk_out1                      | BUFG                   | 80    |
--------------------------------------+------------------------+-------+
-(*) This 1 clock signal(s) are generated by combinatorial logic,
+------------------------------------+------------------------+-------+
+Clock Signal                        | Clock buffer(FF name)  | Load  |
+------------------------------------+------------------------+-------+
+CLK_5K/clk_out1                     | BUFG                   | 38    |
+clk_in                              | BUFGP                  | 115   |
+RegWrite1(CNTRL/RegWrite1:O)        | BUFG(*)(REG/r0_15)     | 256   |
+MemWrite1(CNTRL/ALUop_cmp_eq00011:O)| BUFG(*)(DMem/r0_15)    | 256   |
+CLKDIV/clk_out                      | NONE(PCount/DFF[15]/Q) | 19    |
+------------------------------------+------------------------+-------+
+(*) These 2 clock signal(s) are generated by combinatorial logic,
 and XST is not able to identify which are the primary clock signals.
 Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
 INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
 
 Asynchronous Control Signals Information:
 ----------------------------------------
---------------------------------------------------------------+-------------------------+-------+
-Control Signal                                                | Buffer(FF name)         | Load  |
---------------------------------------------------------------+-------------------------+-------+
-PCount/DFF[0]/nClear_inv(REG/REG4/dff_[0]/nClear_inv1_INV_0:O)| NONE(PCount/DFF[0]/Q)   | 64    |
-LCD/MUX_mux0000<6>_map48(XST_VCC:P)                           | NONE(REG/REG1/dff_[0]/Q)| 16    |
---------------------------------------------------------------+-------------------------+-------+
+------------------------------------------------+------------------------+-------+
+Control Signal                                  | Buffer(FF name)        | Load  |
+------------------------------------------------+------------------------+-------+
+DMem/r0_0_0_not0000(REG/r0_0_0_not00001_INV_0:O)| NONE(DMem/r0_0)        | 531   |
+------------------------------------------------+------------------------+-------+
 
 Timing Summary:
 ---------------
 Speed Grade: -4
 
-   Minimum period: 12.354ns (Maximum Frequency: 80.945MHz)
-   Minimum input arrival time before clock: 5.389ns
-   Maximum output required time after clock: 4.496ns
+   Minimum period: 20.750ns (Maximum Frequency: 48.194MHz)
+   Minimum input arrival time before clock: 18.435ns
+   Maximum output required time after clock: 4.532ns
    Maximum combinational path delay: No path found
 
 Timing Detail:
@@ -1631,68 +1002,139 @@ Timing Detail:
 All values displayed in nanoseconds (ns)
 
 =========================================================================
-Timing constraint: Default period analysis for Clock 'clk_in'
-  Clock period: 10.698ns (frequency: 93.475MHz)
-  Total number of paths / destination ports: 9475 / 228
+Timing constraint: Default period analysis for Clock 'CLK_5K/clk_out1'
+  Clock period: 5.083ns (frequency: 196.732MHz)
+  Total number of paths / destination ports: 147 / 40
 -------------------------------------------------------------------------
-Delay:               10.698ns (Levels of Logic = 8)
-  Source:            LCD/state_FSM_FFd9 (FF)
-  Destination:       LCD/delay_19 (FF)
+Delay:               5.083ns (Levels of Logic = 4)
+  Source:            M_STATES/m_state_3 (FF)
+  Destination:       M_STATES/m_state_3 (FF)
+  Source Clock:      CLK_5K/clk_out1 rising
+  Destination Clock: CLK_5K/clk_out1 rising
+
+  Data Path: M_STATES/m_state_3 to M_STATES/m_state_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              79   0.591   1.312  M_STATES/m_state_3 (M_STATES/m_state_3)
+     LUT3:I2->O            2   0.704   0.622  M_STATES/m_state_mux0010<0>1 (M_STATES/m_state_mux0010<0>)
+     LUT4:I0->O            1   0.704   0.000  M_STATES/Mmux_m_state_mux0000_6 (M_STATES/Mmux_m_state_mux0000_6)
+     MUXF5:I0->O           1   0.321   0.000  M_STATES/Mmux_m_state_mux0000_4_f5 (M_STATES/Mmux_m_state_mux0000_4_f5)
+     MUXF6:I0->O           1   0.521   0.000  M_STATES/Mmux_m_state_mux0000_2_f6 (M_STATES/m_state_mux0000<0>)
+     FD:D                      0.308          M_STATES/m_state_3
+    ----------------------------------------
+    Total                      5.083ns (3.149ns logic, 1.934ns route)
+                                       (62.0% logic, 38.0% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk_in'
+  Clock period: 13.201ns (frequency: 75.749MHz)
+  Total number of paths / destination ports: 11678 / 204
+-------------------------------------------------------------------------
+Delay:               13.201ns (Levels of Logic = 11)
+  Source:            LCD/sel_2 (FF)
+  Destination:       LCD_DATA/data_0 (FF)
   Source Clock:      clk_in rising
   Destination Clock: clk_in rising
 
-  Data Path: LCD/state_FSM_FFd9 to LCD/delay_19
+  Data Path: LCD/sel_2 to LCD_DATA/data_0
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDS:C->Q             13   0.591   1.018  LCD/state_FSM_FFd9 (LCD/state_FSM_FFd9)
-     LUT3:I2->O            3   0.704   0.566  LCD/state_FSM_FFd19-In112 (LCD/N1361)
-     LUT3_D:I2->O          5   0.704   0.637  LCD/delay_or00091 (LCD/delay_or0009)
-     LUT4:I3->O            3   0.704   0.566  LCD/delay_or001114 (LCD/delay_or0011)
-     LUT3:I2->O            1   0.704   0.000  LCD/delay_mux0000<10>1138_G (N360)
-     MUXF5:I1->O           3   0.321   0.535  LCD/delay_mux0000<10>1138 (LCD/N61)
-     LUT4_D:I3->O          4   0.704   0.591  LCD/delay_mux0000<16>32 (LCD/N183)
-     LUT4_D:I3->O          5   0.704   0.637  LCD/delay_mux0000<13>21 (LCD/N44)
-     LUT4:I3->O            1   0.704   0.000  LCD/delay_mux0000<1>1 (LCD/delay_mux0000<1>1)
-     FDS:D                     0.308          LCD/delay_19
+     FD:C->Q              77   0.591   1.451  LCD/sel_2 (LCD/sel_2)
+     LUT3_D:I0->O         10   0.704   0.961  LCD_DATA/Mrom_data_mux000251 (LCD_DATA/Mrom_data_mux00025)
+     LUT3_D:I1->LO         1   0.704   0.275  LCD_DATA/data_cmp_eq00131 (N2473)
+     LUT3:I0->O            1   0.704   0.595  LCD_DATA/data_mux0004<7>121 (LCD_DATA/data_mux0004<7>121)
+     LUT4_L:I0->LO         1   0.704   0.104  LCD_DATA/data_mux0004<7>149_SW0 (N2181)
+     LUT4:I3->O            1   0.704   0.424  LCD_DATA/data_mux0004<7>149 (LCD_DATA/data_mux0004<7>149)
+     LUT4_L:I3->LO         1   0.704   0.104  LCD_DATA/data_mux0004<7>211_SW0_SW0 (N2259)
+     LUT4:I3->O            1   0.704   0.424  LCD_DATA/data_mux0004<7>211_SW0 (N2245)
+     LUT4_L:I3->LO         1   0.704   0.104  LCD_DATA/data_mux0004<7>211 (LCD_DATA/data_mux0004<7>211)
+     LUT4:I3->O            1   0.704   0.499  LCD_DATA/data_mux0004<7>221 (LCD_DATA/data_mux0004<7>)
+     LUT3:I1->O            1   0.704   0.000  LCD_DATA/Mmux_data_mux0000_36 (LCD_DATA/Mmux_data_mux0000_36)
+     MUXF5:I1->O           1   0.321   0.000  LCD_DATA/Mmux_data_mux0000_2_f5_5 (LCD_DATA/data_mux0000<7>)
+     FD:D                      0.308          LCD_DATA/data_0
     ----------------------------------------
-    Total                     10.698ns (6.148ns logic, 4.550ns route)
-                                       (57.5% logic, 42.5% route)
+    Total                     13.201ns (8.260ns logic, 4.941ns route)
+                                       (62.6% logic, 37.4% route)
 
 =========================================================================
-Timing constraint: Default period analysis for Clock 'CLKDIV/clk_out1'
-  Clock period: 12.354ns (frequency: 80.945MHz)
-  Total number of paths / destination ports: 39896 / 80
+Timing constraint: Default period analysis for Clock 'RegWrite1'
+  Clock period: 18.669ns (frequency: 53.565MHz)
+  Total number of paths / destination ports: 29180736 / 256
 -------------------------------------------------------------------------
-Delay:               12.354ns (Levels of Logic = 10)
-  Source:            REG/REG2/dff_[3]/Q (FF)
-  Destination:       PCount/DFF[15]/Q (FF)
-  Source Clock:      CLKDIV/clk_out1 rising
-  Destination Clock: CLKDIV/clk_out1 rising
+Delay:               18.669ns (Levels of Logic = 15)
+  Source:            REG/r9_2 (LATCH)
+  Destination:       REG/r0_13 (LATCH)
+  Source Clock:      RegWrite1 falling
+  Destination Clock: RegWrite1 falling
 
-  Data Path: REG/REG2/dff_[3]/Q to PCount/DFF[15]/Q
+  Data Path: REG/r9_2 to REG/r0_13
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDCE:C->Q             3   0.591   0.566  REG/REG2/dff_[3]/Q (REG/REG2/dff_[3]/Q)
-     LUT4:I2->O            1   0.704   0.000  MUX_ALU/mux4/OUT_f5_F (N353)
-     MUXF5:I0->O           8   0.321   0.761  MUX_ALU/mux4/OUT_f5 (alu_mux_out<3>)
-     LUT4:I3->O            3   0.704   0.610  ALU/TCsub/FADD_[2]/cout1_SW0 (N150)
-     LUT3:I1->O            2   0.704   0.526  ALU/TCsub/FADD_[3]/cout1_SW0 (N194)
-     LUT3:I1->O            8   0.704   0.761  ALU/TCsub/FADD_[5]/cout1 (ALU/TCsub/c<5>)
-     LUT4:I3->O            1   0.704   0.595  ALU/TCsub/FADD_[8]/Mxor_s_Result1 (ALU/s_sub_out<8>)
-     LUT4:I0->O            1   0.704   0.424  b_mux_sel101_SW0 (N224)
-     LUT4_D:I3->LO         1   0.704   0.104  b_mux_sel134 (N636)
-     LUT4:I3->O            2   0.704   0.451  b_mux_sel172 (b_mux_sel)
-     LUT4:I3->O            1   0.704   0.000  J_mux/mux16/OUT1 (PC_next<15>)
-     FDC:D                     0.308          PCount/DFF[15]/Q
+     LDCE:G->Q             4   0.676   0.762  REG/r9_2 (REG/r9_2)
+     LUT4:I0->O            1   0.704   0.424  IM/INSTR<8>1_SW2 (N899)
+     LUT4_L:I3->LO         1   0.704   0.179  REG/Aout<2>49_SW0 (N619)
+     LUT4:I1->O            1   0.704   0.595  REG/Aout<2>81_SW0 (N698)
+     LUT4:I0->O            1   0.704   0.455  REG/Aout<2>81 (REG/Aout<2>81)
+     LUT3:I2->O            9   0.704   0.899  REG/Aout<2>102 (data1<2>)
+     LUT3:I1->O            4   0.704   0.622  ALU/UADD/fa_[13]/cout1 (ALU/TCadd/c<2>)
+     LUT3:I2->O           13   0.704   1.018  ALU/UADD/fa_[11]/cout1 (ALU/TCadd/c<4>)
+     LUT3:I2->O           10   0.704   0.917  ALU/UADD/fa_[9]/cout1 (ALU/TCadd/c<6>)
+     LUT3:I2->O            1   0.704   0.000  ALU/MUX1/mux16_7/mux14/OUT2 (ALU/MUX1/mux16_7/mux14/OUT1)
+     MUXF5:I1->O           1   0.321   0.000  ALU/MUX1/mux16_7/mux14/OUT_f5 (ALU/MUX1/mux16_7/mux14/OUT_f5)
+     MUXF6:I0->O           4   0.521   0.666  ALU/MUX1/mux16_7/mux14/OUT_f6 (alu_out<13>)
+     LUT4:I1->O           17   0.704   1.055  DMem/r10_cmp_eq0000170_SW0 (N780)
+     LUT4:I3->O            2   0.704   0.482  DOutMux/mux1/OUT127_SW0_G (N2010)
+     LUT3:I2->O            1   0.704   0.000  DOutMux/mux1/OUT127_G (N2442)
+     MUXF5:I1->O          16   0.321   0.000  DOutMux/mux1/OUT127 (write_back_data<0>)
+     LDCE:D                    0.308          REG/r15_0
     ----------------------------------------
-    Total                     12.354ns (7.556ns logic, 4.798ns route)
-                                       (61.2% logic, 38.8% route)
+    Total                     18.669ns (10.595ns logic, 8.074ns route)
+                                       (56.8% logic, 43.2% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLKDIV/clk_out'
+  Clock period: 20.750ns (frequency: 48.194MHz)
+  Total number of paths / destination ports: 6872333 / 19
+-------------------------------------------------------------------------
+Delay:               20.750ns (Levels of Logic = 17)
+  Source:            PCount/DFF[3]/Q (FF)
+  Destination:       PCount/DFF[11]/Q (FF)
+  Source Clock:      CLKDIV/clk_out rising
+  Destination Clock: CLKDIV/clk_out rising
+
+  Data Path: PCount/DFF[3]/Q to PCount/DFF[11]/Q
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             26   0.591   1.295  PCount/DFF[3]/Q (PCount/DFF[3]/Q)
+     LUT4:I2->O            1   0.704   0.000  IM/Mrom_INSTR_mux0000142 (IM/Mrom_INSTR_mux0000142)
+     MUXF5:I0->O           1   0.321   0.000  IM/Mrom_INSTR_mux000014_f5 (IM/Mrom_INSTR_mux000014_f5)
+     MUXF6:I0->O          26   0.521   1.264  IM/Mrom_INSTR_mux000014_f6 (IM/Mrom_INSTR_mux000014_f6)
+     LUT4:I3->O           85   0.704   1.279  IM/INSTR<8>1 (INSTR<8>)
+     MUXF5:S->O            1   0.739   0.424  REG/Aout<5>36_SW1 (N1147)
+     LUT4:I3->O            1   0.704   0.000  REG/Aout<5>36_G (N2078)
+     MUXF5:I1->O           2   0.321   0.482  REG/Aout<5>36 (REG/Aout<5>36)
+     LUT3:I2->O           12   0.704   1.040  REG/Aout<5>102 (data1<5>)
+     LUT4:I1->O            9   0.704   0.824  ALU/TCsub/FADD_[4]/cout1_SW1 (N502)
+     LUT4:I3->O            1   0.704   0.000  ALU/TCsub/FADD_[7]/cout1_SW0_SW1_F (N2111)
+     MUXF5:I0->O           4   0.321   0.622  ALU/TCsub/FADD_[7]/cout1_SW0_SW1 (N841)
+     LUT4:I2->O            1   0.704   0.000  ALU/TCsub/FADD_[9]/cout1_F (N2439)
+     MUXF5:I0->O           6   0.321   0.669  ALU/TCsub/FADD_[9]/cout1 (ALU/TCsub/c<9>)
+     MUXF5:S->O            1   0.739   0.455  ALU/TCsub/FADD15/Mxor_s_Result1 (ALU/s_sub_out<15>)
+     LUT4_L:I2->LO         1   0.704   0.104  b_mux_sel145_SW0_SW0_SW0_SW0 (N1632)
+     LUT4:I3->O           16   0.704   1.034  b_mux_sel172 (b_mux_sel)
+     MUXF5:S->O            1   0.739   0.000  J_mux/mux12/OUT58 (PC_next<11>)
+     FDC:D                     0.308          PCount/DFF[11]/Q
+    ----------------------------------------
+    Total                     20.750ns (11.257ns logic, 9.493ns route)
+                                       (54.3% logic, 45.7% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'clk_in'
-  Total number of paths / destination ports: 59 / 59
+  Total number of paths / destination ports: 53 / 53
 -------------------------------------------------------------------------
 Offset:              5.389ns (Levels of Logic = 2)
   Source:            clk_en (PAD)
@@ -1711,35 +1153,149 @@ Offset:              5.389ns (Levels of Logic = 2)
                                        (52.6% logic, 47.4% route)
 
 =========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'clk_in'
-  Total number of paths / destination ports: 14 / 14
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK_5K/clk_out1'
+  Total number of paths / destination ports: 6 / 6
 -------------------------------------------------------------------------
-Offset:              4.496ns (Levels of Logic = 1)
-  Source:            CNT_TEST/display_6 (FF)
-  Destination:       display<6> (PAD)
-  Source Clock:      clk_in rising
+Offset:              5.003ns (Levels of Logic = 3)
+  Source:            btn (PAD)
+  Destination:       BTN_DBNC/state (FF)
+  Destination Clock: CLK_5K/clk_out1 rising
 
-  Data Path: CNT_TEST/display_6 to display<6>
+  Data Path: btn to BTN_DBNC/state
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDRE:C->Q             5   0.591   0.633  CNT_TEST/display_6 (CNT_TEST/display_6)
-     OBUF:I->O                 3.272          display_6_OBUF (display<6>)
+     IBUF:I->O             2   1.218   0.451  btn_IBUF (btn_IBUF)
+     LUT4:I3->O            1   0.704   0.595  BTN_DBNC/state_cmp_eq0000_inv12 (BTN_DBNC/state_cmp_eq0000_inv12)
+     LUT2:I0->O            1   0.704   0.420  BTN_DBNC/state_cmp_eq0000_inv26 (BTN_DBNC/state_cmp_eq0000_inv)
+     FDR:R                     0.911          BTN_DBNC/state
     ----------------------------------------
-    Total                      4.496ns (3.863ns logic, 0.633ns route)
-                                       (85.9% logic, 14.1% route)
+    Total                      5.003ns (3.537ns logic, 1.466ns route)
+                                       (70.7% logic, 29.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'RegWrite1'
+  Total number of paths / destination ports: 2150240 / 256
+-------------------------------------------------------------------------
+Offset:              17.021ns (Levels of Logic = 15)
+  Source:            nClear (PAD)
+  Destination:       REG/r0_13 (LATCH)
+  Destination Clock: RegWrite1 falling
+
+  Data Path: nClear to REG/r0_13
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            64   1.218   1.447  nClear_IBUF (nClear_IBUF)
+     LUT4:I0->O            1   0.704   0.000  REG/Aout<11>102_F (N2101)
+     MUXF5:I0->O          25   0.321   1.339  REG/Aout<11>102 (data1<11>)
+     LUT4:I1->O            3   0.704   0.566  ALU/TCsub/FADD_[10]/cout1_SW0 (N492)
+     LUT3_D:I2->O          5   0.704   0.668  ALU/TCsub/FADD_[11]/cout1_SW0 (N682)
+     LUT3:I2->O            4   0.704   0.622  ALU/TCsub/FADD_[12]/cout1_SW3 (N970)
+     LUT3:I2->O            1   0.704   0.000  ALU/TCsub/FADD_[9]/cout1_SW5_F (N2071)
+     MUXF5:I0->O           1   0.321   0.455  ALU/TCsub/FADD_[9]/cout1_SW5 (N1326)
+     LUT4:I2->O            1   0.704   0.000  ALU/MUX1/mux16_7/mux1/OUT2 (ALU/MUX1/mux16_7/mux1/OUT1)
+     MUXF5:I0->O           1   0.321   0.000  ALU/MUX1/mux16_7/mux1/OUT_f5 (ALU/MUX1/mux16_7/mux1/OUT_f5)
+     MUXF6:I1->O         146   0.521   1.302  ALU/MUX1/mux16_7/mux1/OUT_f6 (alu_out<0>)
+     LUT4:I3->O            1   0.704   0.499  DOutMux/mux14/OUT54 (DOutMux/mux14/OUT54)
+     LUT4:I1->O            1   0.704   0.455  DOutMux/mux14/OUT81 (DOutMux/mux14/OUT81)
+     LUT4:I2->O            1   0.704   0.000  DOutMux/mux14/OUT127_F (N2447)
+     MUXF5:I0->O          16   0.321   0.000  DOutMux/mux14/OUT127 (write_back_data<13>)
+     LDCE:D                    0.308          REG/r15_13
+    ----------------------------------------
+    Total                     17.021ns (9.667ns logic, 7.354ns route)
+                                       (56.8% logic, 43.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'MemWrite1'
+  Total number of paths / destination ports: 798720 / 512
+-------------------------------------------------------------------------
+Offset:              18.435ns (Levels of Logic = 13)
+  Source:            nClear (PAD)
+  Destination:       DMem/r6_15 (LATCH)
+  Destination Clock: MemWrite1 falling
+
+  Data Path: nClear to DMem/r6_15
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            64   1.218   1.447  nClear_IBUF (nClear_IBUF)
+     LUT4:I0->O            1   0.704   0.000  MUX_ALU/mux1/OUT1_F (N2107)
+     MUXF5:I0->O          11   0.321   0.937  MUX_ALU/mux1/OUT1 (alu_mux_out<0>)
+     LUT4_D:I3->LO         1   0.704   0.275  ALU/UADD/fa_[14]/cout1 (N2522)
+     LUT3:I0->O            4   0.704   0.622  ALU/UADD/fa_[13]/cout1 (ALU/TCadd/c<2>)
+     LUT3:I2->O           13   0.704   1.018  ALU/UADD/fa_[11]/cout1 (ALU/TCadd/c<4>)
+     LUT3:I2->O           10   0.704   0.917  ALU/UADD/fa_[9]/cout1 (ALU/TCadd/c<6>)
+     LUT3:I2->O            1   0.704   0.000  ALU/MUX1/mux16_7/mux14/OUT2 (ALU/MUX1/mux16_7/mux14/OUT1)
+     MUXF5:I1->O           1   0.321   0.000  ALU/MUX1/mux16_7/mux14/OUT_f5 (ALU/MUX1/mux16_7/mux14/OUT_f5)
+     MUXF6:I0->O           4   0.521   0.666  ALU/MUX1/mux16_7/mux14/OUT_f6 (alu_out<13>)
+     LUT4:I1->O           17   0.704   1.055  DMem/r10_cmp_eq0000170_SW0 (N780)
+     LUT4:I3->O           15   0.704   1.192  DMem/r10_cmp_eq00001127 (DMem/data_out_and0000)
+     LUT4:I0->O           16   0.704   1.034  DMem/r6_cmp_eq00001 (DMem/r6_cmp_eq0000)
+     LDCE:GE                   0.555          DMem/r6_15
+    ----------------------------------------
+    Total                     18.435ns (9.272ns logic, 9.163ns route)
+                                       (50.3% logic, 49.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLKDIV/clk_out'
+  Total number of paths / destination ports: 15105 / 19
+-------------------------------------------------------------------------
+Offset:              14.436ns (Levels of Logic = 11)
+  Source:            nClear (PAD)
+  Destination:       PCount/DFF[11]/Q (FF)
+  Destination Clock: CLKDIV/clk_out rising
+
+  Data Path: nClear to PCount/DFF[11]/Q
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            64   1.218   1.447  nClear_IBUF (nClear_IBUF)
+     LUT4:I0->O            1   0.704   0.000  MUX_ALU/mux1/OUT1_F (N2107)
+     MUXF5:I0->O          11   0.321   0.937  MUX_ALU/mux1/OUT1 (alu_mux_out<0>)
+     LUT4:I3->O            4   0.704   0.762  ALU/TCsub/FADD_[2]/cout1_SW0 (N609)
+     LUT3:I0->O           13   0.704   1.158  ALU/TCsub/FADD_[3]/cout1 (ALU/TCsub/c<3>)
+     LUT4:I0->O            1   0.704   0.000  ALU/TCsub/FADD_[9]/cout1_F (N2439)
+     MUXF5:I0->O           6   0.321   0.669  ALU/TCsub/FADD_[9]/cout1 (ALU/TCsub/c<9>)
+     MUXF5:S->O            1   0.739   0.455  ALU/TCsub/FADD15/Mxor_s_Result1 (ALU/s_sub_out<15>)
+     LUT4_L:I2->LO         1   0.704   0.104  b_mux_sel145_SW0_SW0_SW0_SW0 (N1632)
+     LUT4:I3->O           16   0.704   1.034  b_mux_sel172 (b_mux_sel)
+     MUXF5:S->O            1   0.739   0.000  J_mux/mux12/OUT58 (PC_next<11>)
+     FDC:D                     0.308          PCount/DFF[11]/Q
+    ----------------------------------------
+    Total                     14.436ns (7.870ns logic, 6.566ns route)
+                                       (54.5% logic, 45.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk_in'
+  Total number of paths / destination ports: 6 / 6
+-------------------------------------------------------------------------
+Offset:              4.532ns (Levels of Logic = 1)
+  Source:            LCD/control_2 (FF)
+  Destination:       lcd_control<2> (PAD)
+  Source Clock:      clk_in rising
+
+  Data Path: LCD/control_2 to lcd_control<2>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               6   0.591   0.669  LCD/control_2 (LCD/control_2)
+     OBUF:I->O                 3.272          lcd_control_2_OBUF (lcd_control<2>)
+    ----------------------------------------
+    Total                      4.532ns (3.863ns logic, 0.669ns route)
+                                       (85.2% logic, 14.8% route)
 
 =========================================================================
 
 
-Total REAL time to Xst completion: 28.00 secs
-Total CPU time to Xst completion: 28.00 secs
+Total REAL time to Xst completion: 42.00 secs
+Total CPU time to Xst completion: 42.39 secs
  
 --> 
 
-Total memory usage is 329388 kilobytes
+Total memory usage is 358956 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :  530 (   0 filtered)
-Number of infos    :    7 (   0 filtered)
+Number of warnings :   63 (   0 filtered)
+Number of infos    :    2 (   0 filtered)
 
