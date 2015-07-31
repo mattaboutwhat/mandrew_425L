@@ -82,10 +82,12 @@
     <transform xil_pn:end_ts="1436318971" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-4818930486093566186" xil_pn:start_ts="1436318971">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
     </transform>
     <transform xil_pn:end_ts="1436318971" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="4565187326207009980" xil_pn:start_ts="1436318971">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
     </transform>
     <transform xil_pn:end_ts="1436318971" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1436318971">
       <status xil_pn:value="SuccessfullyRun"/>
@@ -94,93 +96,89 @@
     <transform xil_pn:end_ts="1436318971" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="80583298541391252" xil_pn:start_ts="1436318971">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
     </transform>
     <transform xil_pn:end_ts="1436318971" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-3893270297158069842" xil_pn:start_ts="1436318971">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
     </transform>
     <transform xil_pn:end_ts="1436318971" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-3753000986951840506" xil_pn:start_ts="1436318971">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
     </transform>
     <transform xil_pn:end_ts="1436319017" xil_pn:in_ck="5452317113609072509" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-8737491830174627751" xil_pn:start_ts="1436318971">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputRemoved"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
-      <outfile xil_pn:name="mcu_single_cycle_lcd.lso"/>
-      <outfile xil_pn:name="mcu_single_cycle_lcd.ngc"/>
-      <outfile xil_pn:name="mcu_single_cycle_lcd.ngr"/>
-      <outfile xil_pn:name="mcu_single_cycle_lcd.prj"/>
-      <outfile xil_pn:name="mcu_single_cycle_lcd.stx"/>
-      <outfile xil_pn:name="mcu_single_cycle_lcd.syr"/>
-      <outfile xil_pn:name="mcu_single_cycle_lcd.xst"/>
-      <outfile xil_pn:name="mcu_single_cycle_lcd_xst.xrpt"/>
-      <outfile xil_pn:name="webtalk_pn.xml"/>
-      <outfile xil_pn:name="xst"/>
+      <status xil_pn:value="OutputRemoved"/>
     </transform>
     <transform xil_pn:end_ts="1436319017" xil_pn:in_ck="-7130351498960126528" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="3351500139928739657" xil_pn:start_ts="1436319017">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputRemoved"/>
     </transform>
     <transform xil_pn:end_ts="1436319024" xil_pn:in_ck="6077661050010588941" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-4422292570258606455" xil_pn:start_ts="1436319017">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="_ngo"/>
-      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
-      <outfile xil_pn:name="mcu_single_cycle_lcd.bld"/>
-      <outfile xil_pn:name="mcu_single_cycle_lcd.ngd"/>
-      <outfile xil_pn:name="mcu_single_cycle_lcd_ngdbuild.xrpt"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
     </transform>
     <transform xil_pn:end_ts="1436319031" xil_pn:in_ck="6077661050010588942" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-5849673150125579957" xil_pn:start_ts="1436319024">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputRemoved"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
-      <outfile xil_pn:name="mcu_single_cycle_lcd.pcf"/>
-      <outfile xil_pn:name="mcu_single_cycle_lcd_map.map"/>
-      <outfile xil_pn:name="mcu_single_cycle_lcd_map.mrp"/>
-      <outfile xil_pn:name="mcu_single_cycle_lcd_map.ncd"/>
-      <outfile xil_pn:name="mcu_single_cycle_lcd_map.ngm"/>
-      <outfile xil_pn:name="mcu_single_cycle_lcd_map.xrpt"/>
-      <outfile xil_pn:name="mcu_single_cycle_lcd_summary.xml"/>
-      <outfile xil_pn:name="mcu_single_cycle_lcd_usage.xml"/>
+      <status xil_pn:value="OutputRemoved"/>
     </transform>
     <transform xil_pn:end_ts="1436319118" xil_pn:in_ck="3345147456177405223" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="-5563652517805085498" xil_pn:start_ts="1436319031">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
-      <outfile xil_pn:name="mcu_single_cycle_lcd.ncd"/>
-      <outfile xil_pn:name="mcu_single_cycle_lcd.pad"/>
-      <outfile xil_pn:name="mcu_single_cycle_lcd.par"/>
-      <outfile xil_pn:name="mcu_single_cycle_lcd.ptwx"/>
-      <outfile xil_pn:name="mcu_single_cycle_lcd.unroutes"/>
-      <outfile xil_pn:name="mcu_single_cycle_lcd.xpi"/>
-      <outfile xil_pn:name="mcu_single_cycle_lcd_pad.csv"/>
-      <outfile xil_pn:name="mcu_single_cycle_lcd_pad.txt"/>
-      <outfile xil_pn:name="mcu_single_cycle_lcd_par.xrpt"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
     </transform>
     <transform xil_pn:end_ts="1436319150" xil_pn:in_ck="-8719226433403627318" xil_pn:name="TRANEXT_bitFile_spartan3e" xil_pn:prop_ck="-7817169320884990698" xil_pn:start_ts="1436319118">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
-      <outfile xil_pn:name="mcu_single_cycle_lcd.bgn"/>
-      <outfile xil_pn:name="mcu_single_cycle_lcd.bit"/>
-      <outfile xil_pn:name="mcu_single_cycle_lcd.drc"/>
-      <outfile xil_pn:name="mcu_single_cycle_lcd.ut"/>
-      <outfile xil_pn:name="usage_statistics_webtalk.html"/>
-      <outfile xil_pn:name="webtalk.log"/>
-      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
     </transform>
     <transform xil_pn:end_ts="1434954845" xil_pn:in_ck="-8719226433403640172" xil_pn:name="TRAN_configureTargetDevice" xil_pn:prop_ck="5582947192412673156" xil_pn:start_ts="1434954841">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="InputAdded"/>
       <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="InputRemoved"/>
@@ -188,9 +186,12 @@
     <transform xil_pn:end_ts="1436319118" xil_pn:in_ck="6077661050010588810" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416186" xil_pn:start_ts="1436319111">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
-      <outfile xil_pn:name="mcu_single_cycle_lcd.twr"/>
-      <outfile xil_pn:name="mcu_single_cycle_lcd.twx"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
     </transform>
   </transforms>
 
